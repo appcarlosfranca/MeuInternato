@@ -1,285 +1,60 @@
 <!doctype html>
 <html lang="pt-BR">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<meta name="theme-color" content="#121116">
-<title>Minha Escala • Carlos • UE 2026</title>
-<link rel="manifest" href="manifest.json">
-<style>
-:root{
- --bg:#0f0e12;--panel:#17151c;--panel2:#201d27;--line:#35303f;
- --text:#f8f4fb;--muted:#aaa3b5;--accent:#ff7858;--accent2:#ffc17d;
- --day:#59d7c8;--night:#9d88ff;--uti:#ffd46f;--ok:#78dca2;--warn:#ffca6a;
- --shadow:0 20px 55px rgba(0,0,0,.30)
-}
-*{box-sizing:border-box} html{scroll-behavior:smooth}
-body{margin:0;background:
-radial-gradient(circle at 100% 0,rgba(255,120,88,.14),transparent 28%),
-radial-gradient(circle at 0 20%,rgba(157,136,255,.11),transparent 25%),var(--bg);
-color:var(--text);font-family:Inter,system-ui,-apple-system,"Segoe UI",sans-serif}
-button{font:inherit}
-.app{max-width:1180px;margin:auto;padding:18px clamp(12px,3vw,30px) 50px}
-.hero{padding:26px;border:1px solid var(--line);border-radius:28px;background:linear-gradient(145deg,rgba(255,255,255,.045),rgba(255,255,255,.015));box-shadow:var(--shadow)}
-.top{display:flex;align-items:flex-start;justify-content:space-between;gap:20px;flex-wrap:wrap}
-.eyebrow{font-size:.75rem;letter-spacing:.16em;text-transform:uppercase;color:var(--accent2);font-weight:800}
-h1{font-size:clamp(2.15rem,5vw,4rem);line-height:.95;margin:.4rem 0}
-.subtitle{color:var(--muted)} .pill{display:inline-flex;margin-top:14px;padding:8px 11px;border-radius:999px;border:1px solid rgba(255,120,88,.28);background:rgba(255,120,88,.08);color:#ffd9d0;font-size:.85rem}
-.actions{display:flex;gap:8px;flex-wrap:wrap}
-.btn{border:1px solid var(--line);color:var(--text);background:var(--panel2);padding:10px 13px;border-radius:12px;cursor:pointer}
-.btn:hover{border-color:var(--accent)}
-.next{margin-top:18px;padding:15px 16px;border:1px solid rgba(120,220,162,.24);background:rgba(120,220,162,.07);border-radius:18px}
-.next small{display:block;color:#a7eec2;font-weight:800;letter-spacing:.08em}
-.summary{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:10px;margin:16px 0}
-.stat{border:1px solid var(--line);background:var(--panel);border-radius:17px;padding:15px}
-.stat small{display:block;color:var(--muted);margin-bottom:4px} .stat strong{font-size:1.28rem}
-.warning{margin:14px 0;padding:13px 15px;border:1px solid rgba(255,202,106,.28);background:rgba(255,202,106,.07);color:#fbe7ba;border-radius:16px}
-.toolbar{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap;margin:17px 0 10px}
-.tabs{display:flex;gap:7px;overflow:auto;padding-bottom:3px}
-.tab{white-space:nowrap;border:1px solid var(--line);background:var(--panel);color:var(--muted);padding:8px 11px;border-radius:999px;cursor:pointer}
-.tab.active{background:var(--accent);border-color:var(--accent);color:#1a0d08;font-weight:800}
-.week{border:1px solid var(--line);border-radius:23px;overflow:hidden;background:rgba(23,21,28,.95);box-shadow:var(--shadow);margin:13px 0 20px}
-.weekhead{display:flex;justify-content:space-between;align-items:center;gap:12px;padding:17px 19px;background:linear-gradient(90deg,rgba(255,120,88,.11),transparent)}
-.weekhead h2{font-size:1.08rem;margin:0} .whours{color:var(--accent2);font-weight:900}
-.day{display:grid;grid-template-columns:165px 1fr;gap:14px;padding:14px 18px;border-top:1px solid var(--line)}
-.day.today{background:rgba(255,120,88,.06)}
-.date strong{display:block} .date span{font-size:.87rem;color:var(--muted)}
-.shifts{display:flex;gap:9px;flex-wrap:wrap}
-.shift{min-width:230px;flex:1;background:var(--panel2);border:1px solid var(--line);border-radius:14px;padding:11px 13px}
-.shift.day{border-left:4px solid var(--day)} .shift.night{border-left:4px solid var(--night)} .shift.uti{border-left:4px solid var(--uti)}
-.sector{font-weight:850} .meta{margin-top:4px;color:var(--muted);font-size:.9rem}
-.off{color:#817989;font-style:italic;padding:8px 0}
-.hidden{display:none!important}
-.foot{text-align:center;color:var(--muted);font-size:.85rem;margin-top:22px}
-@media(max-width:950px){.summary{grid-template-columns:repeat(3,1fr)}}
-@media(max-width:650px){.app{padding:10px 9px 34px}.hero{padding:19px;border-radius:20px}.summary{grid-template-columns:repeat(2,1fr)}.day{grid-template-columns:1fr;gap:7px;padding:13px}.shift{min-width:100%}}
-@media print{body{background:#fff;color:#000}.app{max-width:none;padding:0}.actions,.toolbar{display:none}.hero,.stat,.week{box-shadow:none;background:#fff;border-color:#bbb}.subtitle,.date span,.meta,.foot{color:#555}.shift{background:#fff;border-color:#ccc}.week{break-inside:avoid}}
-
-.shift{position:relative;padding-bottom:29px}
-.companions{position:absolute;right:10px;bottom:7px;max-width:84%;font-size:.68rem;color:#91899b;text-align:right;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
-.companions b{color:#a49cad}
-.compact-print{display:none}
-.compact-sheet{color:#111;background:#fff;font-family:Arial,sans-serif}
-.compact-head{display:flex;justify-content:space-between;align-items:end;border-bottom:2px solid #222;padding-bottom:5px;margin-bottom:7px}
-.compact-title{font-weight:800}
-.compact-sub{color:#555}
-.compact-grid{display:grid;grid-template-columns:1fr 1fr;gap:9px}
-.compact-week{border:1px solid #aaa;border-radius:7px;overflow:hidden}
-.compact-week h3{margin:0;padding:5px 7px;background:#ece8f0;font-size:1em}
-.compact-row{display:grid;grid-template-columns:58px 86px 1fr;gap:5px;padding:4px 6px;border-top:1px solid #ddd;align-items:start}
-.compact-row .cdate,.compact-row .csector{font-weight:700}
-.compact-row .cinfo{color:#333}
-.compact-row .cco{display:block;color:#666;font-size:.88em;margin-top:1px}
-@media print{
- @page{size:A4 portrait;margin:8mm}
- body.print-normal .compact-print{display:none!important}
- body.print-normal .screen-view{display:block!important}
- body.print-compact-1 .screen-view,body.print-compact-2 .screen-view{display:none!important}
- body.print-compact-1 .compact-print,body.print-compact-2 .compact-print{display:block!important}
- body.print-compact-1 .compact-sheet{font-size:8.2pt}
- body.print-compact-1 .compact-grid{gap:4mm}
- body.print-compact-1 .compact-title{font-size:15pt}
- body.print-compact-1 .page-break-2{display:none}
- body.print-compact-2 .compact-sheet{font-size:10pt}
- body.print-compact-2 .compact-title{font-size:18pt}
- body.print-compact-2 .page-break-2{break-before:page;page-break-before:always}
-}
-
-
-.trade-wrap{margin:14px 0}
-.trade-toggle{width:100%;display:flex;justify-content:space-between;align-items:center;gap:10px;border:1px solid var(--line);background:var(--panel);color:var(--text);padding:12px 14px;border-radius:15px;cursor:pointer;text-align:left}
-.trade-toggle small{color:var(--muted)}
-.trade-panel{margin-top:8px;border:1px solid var(--line);border-radius:15px;overflow:hidden;background:var(--panel)}
-.trade-panel.hidden{display:none}
-.trade-table{width:100%;border-collapse:collapse;font-size:.78rem}
-.trade-table th,.trade-table td{padding:8px 9px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top}
-.trade-table th{color:var(--accent2);font-size:.7rem;text-transform:uppercase;letter-spacing:.05em;background:rgba(255,255,255,.025)}
-.trade-table tr:last-child td{border-bottom:0}
-.trade-note{padding:9px 11px;color:var(--muted);font-size:.73rem;border-top:1px solid var(--line)}
-@media(max-width:720px){.trade-panel{overflow:auto}.trade-table{min-width:720px}}
-@media print{.trade-wrap{display:none!important}}
-
-
-.night-roster{
-  margin-top:6px;
-  padding-top:5px;
-  border-top:1px dashed rgba(157,136,255,.18);
-  color:#7f778a;
-  font-size:.64rem;
-  line-height:1.25;
-}
-.night-roster b{
-  color:#8f84ae;
-  font-weight:700;
-}
-@media(max-width:650px){
-  .night-roster{font-size:.62rem}
-}
-@media print{
-  .night-roster{color:#666;border-top-color:#ddd}
-}
-
-</style>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#0b1017" />
+  <title>Escala UE 2026 • Carlos</title>
+  <link rel="manifest" href="manifest.json" />
+  <link rel="icon" href="icon-192.png" />
+  <link rel="stylesheet" href="app.css" />
 </head>
-<body class="print-normal">
-<div class="app">
-<div class="screen-view">
-<section class="hero">
- <div class="top">
-  <div>
-   <div class="eyebrow">Urgência e Emergência • Rodízio 2026</div>
-   <h1>Minha Escala</h1>
-   <div class="subtitle">Carlos • 21/09/2026 a 08/11/2026</div>
-   <div class="pill">Atualizada conforme a nova escala enviada</div>
-  </div>
-  <div class="actions">
-   <button class="btn" onclick="showAll()">Todas as semanas</button>
-   <button class="btn" onclick="printMode('normal')">PDF atual</button>
-   <button class="btn" onclick="printMode('compact-1')">PDF compacto • 1 página</button>
-   <button class="btn" onclick="printMode('compact-2')">PDF compacto • 2 páginas</button>
-  </div>
- </div>
- <div id="nextShift" class="next"></div>
-</section>
-
-<section class="summary">
- <div class="stat"><small>Carga total</small><strong>294h</strong></div>
- <div class="stat"><small>Por semana</small><strong>42h</strong></div>
- <div class="stat"><small>Diurnas</small><strong>252h</strong></div>
- <div class="stat"><small>Noturnas</small><strong>42h</strong></div>
- <div class="stat"><small>UTI HUL</small><strong>7</strong></div>
- <div class="stat"><small>Semanas</small><strong>7</strong></div>
-</section>
-
-<div class="warning"><strong>31/10:</strong> a nova escala mantém Carlos em dois turnos no mesmo dia: Eixo Diurno 07h–19h e Eixo Noturno 19h–01h.</div>
-
-
-<div class="trade-wrap">
-  <button class="trade-toggle" onclick="toggleTrades()">
-    <span><strong>Trocas registradas</strong><br><small>IDs 09–16 • consulta</small></span>
-    <span id="tradeArrow">＋</span>
-  </button>
-  <div id="tradePanel" class="trade-panel hidden"></div>
-</div>
-
-<div class="toolbar">
- <strong>Escala por semana</strong>
- <div id="tabs" class="tabs"></div>
-</div>
-<main id="content"></main>
-<div class="foot">Os nomes pequenos nos cards mostram quem estará no mesmo setor/turno de Carlos; em cada dia, abaixo da data, consta a equipe atualizada do Eixo Noturno.</div>
-</div>
-<section id="compactPrint" class="compact-print compact-sheet"></section>
-</div>
-
-<script>
-const nightRoster={"21/09/2026": ["Jean", "Sara", "Marcelo"], "22/09/2026": ["Leonardo", "Gabriel"], "23/09/2026": ["Fabrício", "Gessica", "Diego*"], "24/09/2026": ["Victor Hugo", "Daniel"], "25/09/2026": ["Adley", "Carlos", "Diego*"], "26/09/2026": ["Adyson", "Marlos"], "27/09/2026": ["Luiz", "Alycia"], "28/09/2026": ["Adley", "Victor Hugo"], "29/09/2026": ["Carlos", "Adyson", "Marcelo"], "30/09/2026": ["Leonardo", "Luiz"], "01/10/2026": ["Fabrício", "Sara", "Diego*"], "02/10/2026": ["Jean", "Marlos", "Diego*"], "03/10/2026": ["Gessica", "Alycia"], "04/10/2026": ["Gabriel", "Daniel"], "05/10/2026": ["Leonardo", "Luiz", "Diego*"], "06/10/2026": ["Victor Hugo", "Marlos"], "07/10/2026": ["Carlos", "Gabriel", "Diego*"], "08/10/2026": ["Adley", "Jean"], "09/10/2026": ["Fabrício", "Alycia", "Marcelo"], "10/10/2026": ["Gessica", "Daniel"], "11/10/2026": ["Adyson", "Sara"], "12/10/2026": ["Victor Hugo", "Gabriel", "Diego*"], "13/10/2026": ["Fabrício", "Alycia"], "14/10/2026": ["Leonardo", "Adyson", "Marcelo"], "15/10/2026": ["Jean", "Luiz"], "16/10/2026": ["Carlos", "Adley", "Diego*"], "17/10/2026": ["Daniel", "Sara"], "18/10/2026": ["Marlos", "Gessica"], "19/10/2026": ["Carlos", "Adyson"], "20/10/2026": ["Adley", "Daniel"], "21/10/2026": ["Fabrício", "Marlos"], "22/10/2026": ["Leonardo", "Gabriel", "Diego*"], "23/10/2026": ["Victor Hugo", "Jean", "Diego*"], "24/10/2026": ["Sara", "Gessica"], "25/10/2026": ["Alycia", "Luiz"], "26/10/2026": ["Victor Hugo", "Marlos", "Diego*"], "27/10/2026": ["Jean", "Sara"], "28/10/2026": ["Adley", "Alycia", "Diego*"], "29/10/2026": ["Leonardo", "Adyson"], "30/10/2026": ["Fabrício", "Gessica"], "31/10/2026": ["Carlos", "Luiz"], "01/11/2026": ["Daniel", "Gabriel"], "02/11/2026": ["Fabrício", "Carlos"], "03/11/2026": ["Leonardo", "Gessica"], "04/11/2026": ["Jean", "Daniel"], "05/11/2026": ["Adley", "Marlos", "Diego*"], "06/11/2026": ["Victor Hugo", "Luiz", "Diego*"], "07/11/2026": ["Alycia", "Gabriel"], "08/11/2026": ["Sara", "Adyson"]};
-const trades=[{"id": "09", "requester": "Jean", "substitute": "Leonardo", "sector": "Eixo diurno", "ceded": "07/10", "ch": "12h", "comp": "08/10"}, {"id": "10", "requester": "Jean", "substitute": "Leonardo", "sector": "Eixo noturno", "ceded": "05/10", "ch": "6h", "comp": "08/10"}, {"id": "11", "requester": "Jean", "substitute": "Leonardo", "sector": "Eixo diurno", "ceded": "28/10", "ch": "12h", "comp": "01/11"}, {"id": "12", "requester": "Leonardo", "substitute": "Victor Hugo", "sector": "Eixo diurno", "ceded": "16/10", "ch": "12h", "comp": "15/10"}, {"id": "13", "requester": "Leonardo", "substitute": "Victor Hugo", "sector": "Eixo noturno", "ceded": "12/10", "ch": "6h", "comp": "14/10"}, {"id": "14", "requester": "Leonardo", "substitute": "Victor Hugo", "sector": "Eixo diurno", "ceded": "06/11", "ch": "12h", "comp": "03/11"}, {"id": "15", "requester": "Victor Hugo", "substitute": "Adley", "sector": "Eixo noturno", "ceded": "05/11", "ch": "6h", "comp": "06/11"}, {"id": "16", "requester": "Victor Hugo", "substitute": "Jean", "sector": "Eixo diurno", "ceded": "29/09", "ch": "12h", "comp": "28/11"}];
-const schedule=[{"week": 1, "period": "21/09 a 27/09", "days": [{"date": "21/09/2026", "weekday": "Segunda", "assignments": [{"sector": "UTI HUL", "time": "07h–19h", "hours": 12, "type": "Diurno", "companions": []}]}, {"date": "22/09/2026", "weekday": "Terça", "assignments": [{"sector": "Eixo Diurno", "time": "07h–19h", "hours": 12, "type": "Diurno", "companions": ["Jean", "Daniel", "Diego*"]}]}, {"date": "23/09/2026", "weekday": "Quarta", "assignments": []}, {"date": "24/09/2026", "weekday": "Quinta", "assignments": []}, {"date": "25/09/2026", "weekday": "Sexta", "assignments": [{"sector": "Eixo Noturno", "time": "19h–01h", "hours": 6, "type": "Noturno", "companions": ["Adley", "Diego*"]}]}, {"date": "26/09/2026", "weekday": "Sábado", "assignments": []}, {"date": "27/09/2026", "weekday": "Domingo", "assignments": [{"sector": "Eixo Diurno", "time": "07h–19h", "hours": 12, "type": "Diurno", "companions": ["Daniel", "Marlos", "Marcelo"]}]}]}, {"week": 2, "period": "28/09 a 04/10", "days": [{"date": "28/09/2026", "weekday": "Segunda", "assignments": [{"sector": "UTI HUL", "time": "07h–19h", "hours": 12, "type": "Diurno", "companions": []}]}, {"date": "29/09/2026", "weekday": "Terça", "assignments": [{"sector": "Eixo Noturno", "time": "19h–01h", "hours": 6, "type": "Noturno", "companions": ["Adyson", "Marcelo"]}]}, {"date": "30/09/2026", "weekday": "Quarta", "assignments": [{"sector": "Eixo Diurno", "time": "07h–19h", "hours": 12, "type": "Diurno", "companions": ["Adley", "Leonardo", "Diego*"]}]}, {"date": "01/10/2026", "weekday": "Quinta", "assignments": []}, {"date": "02/10/2026", "weekday": "Sexta", "assignments": [{"sector": "Eixo Diurno", "time": "07h–19h", "hours": 12, "type": "Diurno", "companions": ["Adley", "Alycia", "Marcelo"]}]}, {"date": "03/10/2026", "weekday": "Sábado", "assignments": []}, {"date": "04/10/2026", "weekday": "Domingo", "assignments": []}]}, {"week": 3, "period": "05/10 a 11/10", "days": [{"date": "05/10/2026", "weekday": "Segunda", "assignments": [{"sector": "Eixo Diurno", "time": "07h–19h", "hours": 12, "type": "Diurno", "companions": ["Leonardo", "Adyson", "Marcelo"]}]}, {"date": "06/10/2026", "weekday": "Terça", "assignments": []}, {"date": "07/10/2026", "weekday": "Quarta", "assignments": [{"sector": "Eixo Noturno", "time": "19h–01h", "hours": 6, "type": "Noturno", "companions": ["Gabriel", "Diego*"]}]}, {"date": "08/10/2026", "weekday": "Quinta", "assignments": [{"sector": "Eixo Diurno", "time": "07h–19h", "hours": 12, "type": "Diurno", "companions": ["Jean (troca)", "Gabriel", "Diego*"]}]}, {"date": "09/10/2026", "weekday": "Sexta", "assignments": []}, {"date": "10/10/2026", "weekday": "Sábado", "assignments": [{"sector": "UTI HUL", "time": "07h–19h", "hours": 12, "type": "Diurno", "companions": []}]}, {"date": "11/10/2026", "weekday": "Domingo", "assignments": []}]}, {"week": 4, "period": "12/10 a 18/10", "days": [{"date": "12/10/2026", "weekday": "Segunda", "assignments": [{"sector": "Eixo Diurno", "time": "07h–19h", "hours": 12, "type": "Diurno", "companions": ["Victor Hugo", "Marlos", "Marcelo"]}]}, {"date": "13/10/2026", "weekday": "Terça", "assignments": []}, {"date": "14/10/2026", "weekday": "Quarta", "assignments": []}, {"date": "15/10/2026", "weekday": "Quinta", "assignments": [{"sector": "Eixo Diurno", "time": "07h–19h", "hours": 12, "type": "Diurno", "companions": ["Leonardo (troca)", "Adyson", "Diego*"]}]}, {"date": "16/10/2026", "weekday": "Sexta", "assignments": [{"sector": "Eixo Noturno", "time": "19h–01h", "hours": 6, "type": "Noturno", "companions": ["Adley", "Diego*"]}]}, {"date": "17/10/2026", "weekday": "Sábado", "assignments": []}, {"date": "18/10/2026", "weekday": "Domingo", "assignments": [{"sector": "UTI HUL", "time": "07h–19h", "hours": 12, "type": "Diurno", "companions": []}]}]}, {"week": 5, "period": "19/10 a 25/10", "days": [{"date": "19/10/2026", "weekday": "Segunda", "assignments": [{"sector": "Eixo Noturno", "time": "19h–01h", "hours": 6, "type": "Noturno", "companions": ["Adyson"]}]}, {"date": "20/10/2026", "weekday": "Terça", "assignments": [{"sector": "UTI HUL", "time": "07h–19h", "hours": 12, "type": "Diurno", "companions": []}]}, {"date": "21/10/2026", "weekday": "Quarta", "assignments": [{"sector": "Eixo Diurno", "time": "07h–19h", "hours": 12, "type": "Diurno", "companions": ["Adley", "Sara", "Diego*"]}]}, {"date": "22/10/2026", "weekday": "Quinta", "assignments": []}, {"date": "23/10/2026", "weekday": "Sexta", "assignments": [{"sector": "Eixo Diurno", "time": "07h–19h", "hours": 12, "type": "Diurno", "companions": ["Adley", "Gessica"]}]}, {"date": "24/10/2026", "weekday": "Sábado", "assignments": []}, {"date": "25/10/2026", "weekday": "Domingo", "assignments": []}]}, {"week": 6, "period": "26/10 a 01/11", "days": [{"date": "26/10/2026", "weekday": "Segunda", "assignments": []}, {"date": "27/10/2026", "weekday": "Terça", "assignments": [{"sector": "Eixo Diurno", "time": "07h–19h", "hours": 12, "type": "Diurno", "companions": ["Leonardo", "Adyson", "Diego*"]}]}, {"date": "28/10/2026", "weekday": "Quarta", "assignments": [{"sector": "UTI HUL", "time": "07h–19h", "hours": 12, "type": "Diurno", "companions": []}]}, {"date": "29/10/2026", "weekday": "Quinta", "assignments": []}, {"date": "30/10/2026", "weekday": "Sexta", "assignments": []}, {"date": "31/10/2026", "weekday": "Sábado", "assignments": [{"sector": "Eixo Diurno", "time": "07h–19h", "hours": 12, "type": "Diurno", "companions": ["Marlos", "Gabriel"]}, {"sector": "Eixo Noturno", "time": "19h–01h", "hours": 6, "type": "Noturno", "companions": ["Luiz"]}]}, {"date": "01/11/2026", "weekday": "Domingo", "assignments": []}]}, {"week": 7, "period": "02/11 a 08/11", "days": [{"date": "02/11/2026", "weekday": "Segunda", "assignments": [{"sector": "Eixo Noturno", "time": "19h–01h", "hours": 6, "type": "Noturno", "companions": ["Fabrício"]}]}, {"date": "03/11/2026", "weekday": "Terça", "assignments": [{"sector": "Eixo Diurno", "time": "07h–19h", "hours": 12, "type": "Diurno", "companions": ["Leonardo (troca)", "Marlos", "Diego*"]}]}, {"date": "04/11/2026", "weekday": "Quarta", "assignments": []}, {"date": "05/11/2026", "weekday": "Quinta", "assignments": [{"sector": "UTI HUL", "time": "07h–19h", "hours": 12, "type": "Diurno", "companions": []}]}, {"date": "06/11/2026", "weekday": "Sexta", "assignments": [{"sector": "Eixo Diurno", "time": "07h–19h", "hours": 12, "type": "Diurno", "companions": ["Fabrício", "Victor Hugo (troca)"]}]}, {"date": "07/11/2026", "weekday": "Sábado", "assignments": []}, {"date": "08/11/2026", "weekday": "Domingo", "assignments": []}]}];
-
-
-
-function renderTrades(){
- const el=document.getElementById('tradePanel');
- if(!el) return;
- el.innerHTML=`<table class="trade-table">
-  <thead><tr><th>ID</th><th>Quem cede</th><th>Quem assume</th><th>Setor</th><th>Plantão cedido</th><th>CH</th><th>Recomposição</th></tr></thead>
-  <tbody>${trades.map(t=>`<tr><td>${t.id}</td><td>${t.requester}</td><td>${t.substitute}</td><td>${t.sector}</td><td>${t.ceded}</td><td>${t.ch}</td><td>${t.comp}</td></tr>`).join('')}</tbody>
- </table>
- <div class="trade-note">Registro mantido exatamente como informado na tabela de trocas. No card pessoal, o nome dos colegas só foi alterado quando a troca/recomposição muda quem estará no mesmo setor e turno de Carlos.</div>`;
-}
-function toggleTrades(){
- const p=document.getElementById('tradePanel');
- const a=document.getElementById('tradeArrow');
- p.classList.toggle('hidden');
- a.textContent=p.classList.contains('hidden')?'＋':'−';
-}
-
-function compactWeek(w){
- const rows=[];
- w.days.forEach(d=>d.assignments.forEach(a=>rows.push({d,a})));
- return `<section class="compact-week">
-  <h3>Semana ${w.week} • ${w.period} • ${weekHours(w)}h</h3>
-  ${rows.map(x=>`<div class="compact-row">
-    <div class="cdate">${x.d.date.slice(0,5)}</div>
-    <div class="csector">${x.a.sector}</div>
-    <div class="cinfo">${x.a.time}<span class="cco">${x.a.companions.length?'Com: '+x.a.companions.join(', '):'Sem outro aluno no setor'}</span></div>
-  </div>`).join('')}
- </section>`;
-}
-function renderCompact(){
- const p1=schedule.slice(0,4).map(compactWeek).join('');
- const p2=schedule.slice(4).map(compactWeek).join('');
- document.getElementById('compactPrint').innerHTML=`
-  <div class="compact-head">
-   <div><div class="compact-title">Minha Escala • Carlos</div><div class="compact-sub">Urgência e Emergência • 21/09 a 08/11/2026</div></div>
-   <div class="compact-sub">294h • 42h/semana</div>
-  </div>
-  <div class="compact-grid">${p1}</div>
-  <div class="page-break-2"></div>
-  <div class="compact-grid">${p2}</div>`;
-}
-function printMode(mode){
- document.body.classList.remove('print-normal','print-compact-1','print-compact-2');
- document.body.classList.add('print-'+mode);
- setTimeout(()=>window.print(),80);
-}
-window.addEventListener('afterprint',()=>{
- document.body.classList.remove('print-compact-1','print-compact-2');
- document.body.classList.add('print-normal');
-});
-
-function parseBR(s){
- const [d,m,y]=s.split('/').map(Number); return new Date(y,m-1,d);
-}
-function weekHours(w){return w.days.reduce((s,d)=>s+d.assignments.reduce((x,a)=>x+a.hours,0),0)}
-function render(){
- const tabs=document.getElementById('tabs');
- tabs.innerHTML='<button class="tab active" data-week="all" onclick="filterWeek(\'all\',this)">Todas</button>'+
- schedule.map(w=>`<button class="tab" data-week="${w.week}" onclick="filterWeek(${w.week},this)">Semana ${w.week}</button>`).join('');
- document.getElementById('content').innerHTML=schedule.map(w=>`
- <section class="week" data-week="${w.week}">
-   <div class="weekhead"><h2>Semana ${w.week} • ${w.period}</h2><div class="whours">${weekHours(w)}h</div></div>
-   ${w.days.map(d=>`
-    <div class="day" data-date="${d.date}">
-      <div class="date"><strong>${d.weekday}</strong><span>${d.date.slice(0,5)}</span><div class="night-roster"><b>Eixo Noturno:</b> ${(nightRoster[d.date]||[]).join(', ')}</div></div>
-      <div class="shifts">
-       ${d.assignments.length?d.assignments.map(a=>{
-         const cls=a.sector.includes('UTI')?'uti':(a.type==='Noturno'?'night':'day');
-         const co=(a.companions&&a.companions.length)?`<b>Comigo:</b> ${a.companions.join(', ')}`:'Sem outro aluno no setor';
-         return `<div class="shift ${cls}"><div class="sector">${a.sector}</div><div class="meta">${a.time} • ${a.hours}h • ${a.type}</div><div class="companions">${co}</div></div>`;
-       }).join(''):'<div class="off">Sem plantão na escala</div>'}
+<body>
+  <div class="app-shell">
+    <header class="hero">
+      <div>
+        <div class="eyebrow">Urgência e Emergência • Rodízio 2026</div>
+        <h1>Escala Completa</h1>
+        <p>21/09 a 08/11 • todos os setores, todos os dias e todas as equipes</p>
+        <div class="legend">
+          <span class="legend-chip carlos-legend">Carlos</span>
+          <span class="legend-text">dia/setor com seu nome = destaque neon</span>
+        </div>
       </div>
-    </div>`).join('')}
- </section>`).join('');
- renderCompact(); markToday(); updateNext();
-}
-function filterWeek(n,b){
- document.querySelectorAll('.tab').forEach(x=>x.classList.remove('active'));b.classList.add('active');
- document.querySelectorAll('.week').forEach(x=>x.classList.toggle('hidden',n!=='all'&&Number(x.dataset.week)!==Number(n)));
-}
-function showAll(){
- const b=document.querySelector('.tab[data-week="all"]');filterWeek('all',b);
- document.querySelector('.toolbar').scrollIntoView({behavior:'smooth',block:'start'});
-}
-function markToday(){
- const now=new Date();
- document.querySelectorAll('.day').forEach(el=>{if(parseBR(el.dataset.date).toDateString()===now.toDateString())el.classList.add('today')})
-}
-function updateNext(){
- const now=new Date(), all=[];
- schedule.forEach(w=>w.days.forEach(d=>d.assignments.forEach(a=>all.push({date:parseBR(d.date),dateText:d.date,weekday:d.weekday,...a}))));
- all.sort((a,b)=>a.date-b.date);
- const next=all.find(x=>{
-  const h=parseInt(x.time.split('–')[0]);const dt=new Date(x.date);dt.setHours(h,0,0,0);return dt>=now;
- });
- document.getElementById('nextShift').innerHTML=next?
- `<small>PRÓXIMO PLANTÃO</small><strong>${next.weekday}, ${next.dateText.slice(0,5)} • ${next.sector}</strong><br>${next.time} • ${next.hours}h`:
- '<small>PRÓXIMO PLANTÃO</small><strong>Rodízio encerrado.</strong>';
-}
-render();
-renderTrades();
-if('serviceWorker' in navigator && location.protocol.startsWith('http')) navigator.serviceWorker.register('sw.js').catch(()=>{});
-</script>
+      <div class="hero-actions">
+        <button id="btnAll" class="btn active">Todos os dias</button>
+        <button id="btnCarlos" class="btn">Só dias com Carlos</button>
+        <button id="btnPrint" class="btn">Imprimir / PDF</button>
+      </div>
+    </header>
+
+    <section id="summary" class="summary"></section>
+
+    <section class="toolbar">
+      <div id="weekTabs" class="week-tabs" aria-label="Semanas"></div>
+      <button id="btnCurrent" class="btn btn-subtle">Semana atual</button>
+    </section>
+
+    <main id="scheduleRoot"></main>
+
+    <section class="trades-box">
+      <button id="tradeToggle" class="trades-toggle">
+        <span>
+          <strong>Trocas aplicadas</strong>
+          <small>IDs 09–16 • toque para consultar</small>
+        </span>
+        <span id="tradeArrow">＋</span>
+      </button>
+      <div id="tradePanel" class="trades-panel hidden"></div>
+    </section>
+
+    <footer>
+      Base: escala completa atualizada enviada pelo usuário + trocas confirmadas.
+      O ID 14 foi corrigido para Eixo Diurno • 06/11 • 12h.
+    </footer>
+  </div>
+
+  <script src="data.js"></script>
+  <script src="app.js"></script>
 </body>
 </html>

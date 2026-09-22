@@ -1,0 +1,189 @@
+
+:root{
+  --bg:#081018;
+  --panel:#0f1822;
+  --panel2:#131f2b;
+  --panel3:#172633;
+  --line:#253848;
+  --text:#eef6fb;
+  --muted:#8ea3b2;
+  --accent:#a979ff;
+  --accent2:#ff9f68;
+  --cyan:#39f6e0;
+  --cyan-soft:rgba(57,246,224,.13);
+  --cyan-line:rgba(57,246,224,.72);
+  --night:#9486ff;
+  --day:#54c9bd;
+  --uti:#f0c76b;
+  --danger:#ff6b7d;
+  --shadow:0 18px 55px rgba(0,0,0,.28);
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+  margin:0;
+  background:
+    radial-gradient(circle at 92% -5%, rgba(169,121,255,.15), transparent 27%),
+    radial-gradient(circle at -8% 20%, rgba(57,246,224,.08), transparent 25%),
+    var(--bg);
+  color:var(--text);
+  font-family:Inter,ui-sans-serif,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+}
+button{font:inherit}
+.app-shell{max-width:1280px;margin:auto;padding:18px clamp(10px,2.6vw,30px) 46px}
+.hero{
+  display:flex;justify-content:space-between;gap:20px;align-items:flex-start;flex-wrap:wrap;
+  border:1px solid var(--line);border-radius:26px;padding:24px;
+  background:linear-gradient(145deg,rgba(255,255,255,.045),rgba(255,255,255,.012));
+  box-shadow:var(--shadow)
+}
+.eyebrow{font-size:.73rem;letter-spacing:.17em;text-transform:uppercase;color:#c7aaff;font-weight:850}
+h1{font-size:clamp(2rem,5vw,3.8rem);line-height:.98;margin:.45rem 0 .35rem}
+.hero p{margin:0;color:var(--muted)}
+.hero-actions{display:flex;gap:8px;flex-wrap:wrap;justify-content:flex-end}
+.btn{
+  border:1px solid var(--line);background:var(--panel2);color:var(--text);
+  border-radius:12px;padding:10px 13px;cursor:pointer;transition:.18s ease
+}
+.btn:hover{border-color:#5a7183;transform:translateY(-1px)}
+.btn.active{border-color:var(--cyan-line);color:#bafff7;background:rgba(57,246,224,.08);box-shadow:0 0 18px rgba(57,246,224,.10)}
+.btn-subtle{padding:8px 11px;font-size:.82rem}
+.legend{display:flex;align-items:center;gap:8px;margin-top:14px;flex-wrap:wrap}
+.legend-chip{font-size:.75rem;border-radius:999px;padding:5px 9px}
+.carlos-legend{
+  color:#071614;background:#76fff0;font-weight:900;
+  box-shadow:0 0 10px rgba(57,246,224,.7),0 0 24px rgba(57,246,224,.35)
+}
+.legend-text{font-size:.77rem;color:var(--muted)}
+
+.summary{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:9px;margin:14px 0}
+.stat{border:1px solid var(--line);background:var(--panel);border-radius:16px;padding:13px}
+.stat small{display:block;color:var(--muted);font-size:.72rem;margin-bottom:4px}
+.stat strong{font-size:1.25rem}
+
+.toolbar{display:flex;justify-content:space-between;align-items:center;gap:12px;margin:17px 0 10px;flex-wrap:wrap}
+.week-tabs{display:flex;gap:7px;overflow:auto;padding-bottom:3px}
+.week-tab{
+  white-space:nowrap;border:1px solid var(--line);background:var(--panel);color:var(--muted);
+  padding:8px 11px;border-radius:999px;cursor:pointer
+}
+.week-tab.active{background:var(--accent);border-color:var(--accent);color:#130b1f;font-weight:850}
+
+.week-card{margin:13px 0 22px;border:1px solid var(--line);border-radius:22px;overflow:hidden;background:rgba(15,24,34,.93);box-shadow:var(--shadow)}
+.week-head{display:flex;justify-content:space-between;align-items:center;gap:12px;padding:15px 17px;background:linear-gradient(90deg,rgba(169,121,255,.13),transparent)}
+.week-head h2{font-size:1.03rem;margin:0}
+.week-head small{color:var(--muted)}
+
+.day-card{
+  position:relative;border-top:1px solid var(--line);padding:12px 14px;
+  background:linear-gradient(90deg,rgba(255,255,255,.012),transparent);
+  transition:.18s ease
+}
+.day-card:first-of-type{border-top:0}
+.day-card.carlos-day{
+  margin:7px;
+  border:1px solid rgba(57,246,224,.72);
+  border-radius:16px;
+  background:
+    linear-gradient(100deg,rgba(57,246,224,.085),rgba(57,246,224,.018) 55%,transparent);
+  box-shadow:
+    0 0 0 1px rgba(57,246,224,.12) inset,
+    0 0 14px rgba(57,246,224,.20),
+    0 0 28px rgba(57,246,224,.08);
+  animation:neonPulse 2.9s ease-in-out infinite
+}
+@keyframes neonPulse{
+  0%,100%{box-shadow:0 0 0 1px rgba(57,246,224,.10) inset,0 0 11px rgba(57,246,224,.16),0 0 22px rgba(57,246,224,.06)}
+  50%{box-shadow:0 0 0 1px rgba(57,246,224,.20) inset,0 0 18px rgba(57,246,224,.30),0 0 38px rgba(57,246,224,.12)}
+}
+.day-top{display:flex;justify-content:space-between;align-items:center;gap:10px;margin-bottom:9px}
+.day-title{display:flex;align-items:baseline;gap:8px}
+.day-title strong{font-size:.9rem}
+.day-title span{font-size:.75rem;color:var(--muted)}
+.me-badge{
+  font-size:.62rem;font-weight:900;letter-spacing:.08em;text-transform:uppercase;
+  color:#071614;background:#76fff0;padding:4px 7px;border-radius:999px;
+  box-shadow:0 0 12px rgba(57,246,224,.6)
+}
+.sectors-grid{display:grid;grid-template-columns:1.35fr .9fr .8fr 1fr 1.12fr;gap:7px}
+.sector{
+  min-width:0;border:1px solid var(--line);background:var(--panel2);border-radius:11px;
+  padding:8px 9px;position:relative
+}
+.sector.carlos-sector{
+  border-color:rgba(57,246,224,.48);
+  background:linear-gradient(145deg,rgba(57,246,224,.075),rgba(19,31,43,.95))
+}
+.sector-head{display:flex;justify-content:space-between;gap:5px;align-items:flex-start;margin-bottom:6px}
+.sector-title{font-size:.66rem;font-weight:850;color:#b9cbd7;line-height:1.15}
+.sector-time{font-size:.58rem;color:#718898;white-space:nowrap}
+.names{display:flex;gap:4px;flex-wrap:wrap;align-items:center}
+.name{
+  font-size:.68rem;color:#b9c5cd;line-height:1.1;
+  padding:2px 4px;border-radius:5px;background:rgba(255,255,255,.025)
+}
+.name.carlos{
+  color:#071614;background:#76fff0;font-weight:950;
+  border:1px solid #aafff7;
+  box-shadow:0 0 8px rgba(57,246,224,.72),0 0 17px rgba(57,246,224,.24)
+}
+.trade-mark{
+  display:inline-flex;margin-top:5px;font-size:.56rem;color:#f0d9ff;
+  border:1px solid rgba(169,121,255,.30);background:rgba(169,121,255,.08);
+  border-radius:999px;padding:2px 5px
+}
+.hidden{display:none!important}
+
+.trades-box{margin-top:18px}
+.trades-toggle{
+  width:100%;display:flex;justify-content:space-between;align-items:center;gap:10px;
+  border:1px solid var(--line);background:var(--panel);color:var(--text);padding:12px 14px;
+  border-radius:14px;cursor:pointer;text-align:left
+}
+.trades-toggle small{display:block;color:var(--muted);margin-top:2px}
+.trades-panel{margin-top:7px;border:1px solid var(--line);border-radius:14px;overflow:auto;background:var(--panel)}
+.trade-table{width:100%;border-collapse:collapse;min-width:820px;font-size:.72rem}
+.trade-table th,.trade-table td{padding:8px 9px;border-bottom:1px solid var(--line);text-align:left}
+.trade-table th{color:#cdb5ff;background:rgba(255,255,255,.02);font-size:.62rem;text-transform:uppercase;letter-spacing:.05em}
+.trade-table tr:last-child td{border-bottom:0}
+.trade-status{font-size:.62rem;color:#9fd8c8}
+footer{text-align:center;color:#6f8492;font-size:.72rem;margin:20px 0}
+
+@media(max-width:1000px){
+  .summary{grid-template-columns:repeat(3,1fr)}
+  .sectors-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .sector:first-child{grid-column:span 2}
+}
+@media(max-width:620px){
+  .app-shell{padding:9px 8px 34px}
+  .hero{padding:17px;border-radius:18px}
+  .hero-actions{justify-content:flex-start}
+  .summary{grid-template-columns:repeat(2,1fr)}
+  .day-card{padding:10px}
+  .day-card.carlos-day{margin:5px}
+  .sectors-grid{grid-template-columns:1fr}
+  .sector:first-child{grid-column:auto}
+  .name{font-size:.66rem}
+}
+@media(prefers-reduced-motion:reduce){
+  *{scroll-behavior:auto!important}
+  .day-card.carlos-day{animation:none}
+}
+@media print{
+  @page{size:A4 landscape;margin:6mm}
+  body{background:#fff;color:#000}
+  .app-shell{max-width:none;padding:0}
+  .hero-actions,.toolbar,.trades-box,footer{display:none!important}
+  .hero{border:0;box-shadow:none;padding:0 0 6mm;background:#fff}
+  .hero p,.legend-text,.sector-time,.week-head small{color:#555}
+  .summary{display:none}
+  .week-card{box-shadow:none;background:#fff;border-color:#bbb;break-inside:avoid;margin:0 0 5mm}
+  .week-head{background:#eee}
+  .day-card{background:#fff;border-color:#ddd;padding:6px 7px}
+  .day-card.carlos-day{animation:none;margin:3px;border:1.5px solid #008c80;box-shadow:none;background:#f1fffd}
+  .sector{background:#fff;border-color:#ccc;padding:5px}
+  .sector.carlos-sector{background:#f1fffd;border-color:#52a89f}
+  .sector-title,.name{color:#111}
+  .name.carlos{color:#000;background:#b9fff6;border-color:#008c80;box-shadow:none}
+  .trade-mark{color:#333;border-color:#bbb;background:#f4f4f4}
+}

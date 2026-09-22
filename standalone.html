@@ -1,0 +1,3070 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#0b1017" />
+  <title>Escala UE 2026 • Carlos</title>
+      <style>
+
+:root{
+  --bg:#081018;
+  --panel:#0f1822;
+  --panel2:#131f2b;
+  --panel3:#172633;
+  --line:#253848;
+  --text:#eef6fb;
+  --muted:#8ea3b2;
+  --accent:#a979ff;
+  --accent2:#ff9f68;
+  --cyan:#39f6e0;
+  --cyan-soft:rgba(57,246,224,.13);
+  --cyan-line:rgba(57,246,224,.72);
+  --night:#9486ff;
+  --day:#54c9bd;
+  --uti:#f0c76b;
+  --danger:#ff6b7d;
+  --shadow:0 18px 55px rgba(0,0,0,.28);
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+  margin:0;
+  background:
+    radial-gradient(circle at 92% -5%, rgba(169,121,255,.15), transparent 27%),
+    radial-gradient(circle at -8% 20%, rgba(57,246,224,.08), transparent 25%),
+    var(--bg);
+  color:var(--text);
+  font-family:Inter,ui-sans-serif,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+}
+button{font:inherit}
+.app-shell{max-width:1280px;margin:auto;padding:18px clamp(10px,2.6vw,30px) 46px}
+.hero{
+  display:flex;justify-content:space-between;gap:20px;align-items:flex-start;flex-wrap:wrap;
+  border:1px solid var(--line);border-radius:26px;padding:24px;
+  background:linear-gradient(145deg,rgba(255,255,255,.045),rgba(255,255,255,.012));
+  box-shadow:var(--shadow)
+}
+.eyebrow{font-size:.73rem;letter-spacing:.17em;text-transform:uppercase;color:#c7aaff;font-weight:850}
+h1{font-size:clamp(2rem,5vw,3.8rem);line-height:.98;margin:.45rem 0 .35rem}
+.hero p{margin:0;color:var(--muted)}
+.hero-actions{display:flex;gap:8px;flex-wrap:wrap;justify-content:flex-end}
+.btn{
+  border:1px solid var(--line);background:var(--panel2);color:var(--text);
+  border-radius:12px;padding:10px 13px;cursor:pointer;transition:.18s ease
+}
+.btn:hover{border-color:#5a7183;transform:translateY(-1px)}
+.btn.active{border-color:var(--cyan-line);color:#bafff7;background:rgba(57,246,224,.08);box-shadow:0 0 18px rgba(57,246,224,.10)}
+.btn-subtle{padding:8px 11px;font-size:.82rem}
+.legend{display:flex;align-items:center;gap:8px;margin-top:14px;flex-wrap:wrap}
+.legend-chip{font-size:.75rem;border-radius:999px;padding:5px 9px}
+.carlos-legend{
+  color:#071614;background:#76fff0;font-weight:900;
+  box-shadow:0 0 10px rgba(57,246,224,.7),0 0 24px rgba(57,246,224,.35)
+}
+.legend-text{font-size:.77rem;color:var(--muted)}
+
+.summary{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:9px;margin:14px 0}
+.stat{border:1px solid var(--line);background:var(--panel);border-radius:16px;padding:13px}
+.stat small{display:block;color:var(--muted);font-size:.72rem;margin-bottom:4px}
+.stat strong{font-size:1.25rem}
+
+.toolbar{display:flex;justify-content:space-between;align-items:center;gap:12px;margin:17px 0 10px;flex-wrap:wrap}
+.week-tabs{display:flex;gap:7px;overflow:auto;padding-bottom:3px}
+.week-tab{
+  white-space:nowrap;border:1px solid var(--line);background:var(--panel);color:var(--muted);
+  padding:8px 11px;border-radius:999px;cursor:pointer
+}
+.week-tab.active{background:var(--accent);border-color:var(--accent);color:#130b1f;font-weight:850}
+
+.week-card{margin:13px 0 22px;border:1px solid var(--line);border-radius:22px;overflow:hidden;background:rgba(15,24,34,.93);box-shadow:var(--shadow)}
+.week-head{display:flex;justify-content:space-between;align-items:center;gap:12px;padding:15px 17px;background:linear-gradient(90deg,rgba(169,121,255,.13),transparent)}
+.week-head h2{font-size:1.03rem;margin:0}
+.week-head small{color:var(--muted)}
+
+.day-card{
+  position:relative;border-top:1px solid var(--line);padding:12px 14px;
+  background:linear-gradient(90deg,rgba(255,255,255,.012),transparent);
+  transition:.18s ease
+}
+.day-card:first-of-type{border-top:0}
+.day-card.carlos-day{
+  margin:7px;
+  border:1px solid rgba(57,246,224,.72);
+  border-radius:16px;
+  background:
+    linear-gradient(100deg,rgba(57,246,224,.085),rgba(57,246,224,.018) 55%,transparent);
+  box-shadow:
+    0 0 0 1px rgba(57,246,224,.12) inset,
+    0 0 14px rgba(57,246,224,.20),
+    0 0 28px rgba(57,246,224,.08);
+  animation:neonPulse 2.9s ease-in-out infinite
+}
+@keyframes neonPulse{
+  0%,100%{box-shadow:0 0 0 1px rgba(57,246,224,.10) inset,0 0 11px rgba(57,246,224,.16),0 0 22px rgba(57,246,224,.06)}
+  50%{box-shadow:0 0 0 1px rgba(57,246,224,.20) inset,0 0 18px rgba(57,246,224,.30),0 0 38px rgba(57,246,224,.12)}
+}
+.day-top{display:flex;justify-content:space-between;align-items:center;gap:10px;margin-bottom:9px}
+.day-title{display:flex;align-items:baseline;gap:8px}
+.day-title strong{font-size:.9rem}
+.day-title span{font-size:.75rem;color:var(--muted)}
+.me-badge{
+  font-size:.62rem;font-weight:900;letter-spacing:.08em;text-transform:uppercase;
+  color:#071614;background:#76fff0;padding:4px 7px;border-radius:999px;
+  box-shadow:0 0 12px rgba(57,246,224,.6)
+}
+.sectors-grid{display:grid;grid-template-columns:1.35fr .9fr .8fr 1fr 1.12fr;gap:7px}
+.sector{
+  min-width:0;border:1px solid var(--line);background:var(--panel2);border-radius:11px;
+  padding:8px 9px;position:relative
+}
+.sector.carlos-sector{
+  border-color:rgba(57,246,224,.48);
+  background:linear-gradient(145deg,rgba(57,246,224,.075),rgba(19,31,43,.95))
+}
+.sector-head{display:flex;justify-content:space-between;gap:5px;align-items:flex-start;margin-bottom:6px}
+.sector-title{font-size:.66rem;font-weight:850;color:#b9cbd7;line-height:1.15}
+.sector-time{font-size:.58rem;color:#718898;white-space:nowrap}
+.names{display:flex;gap:4px;flex-wrap:wrap;align-items:center}
+.name{
+  font-size:.68rem;color:#b9c5cd;line-height:1.1;
+  padding:2px 4px;border-radius:5px;background:rgba(255,255,255,.025)
+}
+.name.carlos{
+  color:#071614;background:#76fff0;font-weight:950;
+  border:1px solid #aafff7;
+  box-shadow:0 0 8px rgba(57,246,224,.72),0 0 17px rgba(57,246,224,.24)
+}
+.trade-mark{
+  display:inline-flex;margin-top:5px;font-size:.56rem;color:#f0d9ff;
+  border:1px solid rgba(169,121,255,.30);background:rgba(169,121,255,.08);
+  border-radius:999px;padding:2px 5px
+}
+.hidden{display:none!important}
+
+.trades-box{margin-top:18px}
+.trades-toggle{
+  width:100%;display:flex;justify-content:space-between;align-items:center;gap:10px;
+  border:1px solid var(--line);background:var(--panel);color:var(--text);padding:12px 14px;
+  border-radius:14px;cursor:pointer;text-align:left
+}
+.trades-toggle small{display:block;color:var(--muted);margin-top:2px}
+.trades-panel{margin-top:7px;border:1px solid var(--line);border-radius:14px;overflow:auto;background:var(--panel)}
+.trade-table{width:100%;border-collapse:collapse;min-width:820px;font-size:.72rem}
+.trade-table th,.trade-table td{padding:8px 9px;border-bottom:1px solid var(--line);text-align:left}
+.trade-table th{color:#cdb5ff;background:rgba(255,255,255,.02);font-size:.62rem;text-transform:uppercase;letter-spacing:.05em}
+.trade-table tr:last-child td{border-bottom:0}
+.trade-status{font-size:.62rem;color:#9fd8c8}
+footer{text-align:center;color:#6f8492;font-size:.72rem;margin:20px 0}
+
+@media(max-width:1000px){
+  .summary{grid-template-columns:repeat(3,1fr)}
+  .sectors-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .sector:first-child{grid-column:span 2}
+}
+@media(max-width:620px){
+  .app-shell{padding:9px 8px 34px}
+  .hero{padding:17px;border-radius:18px}
+  .hero-actions{justify-content:flex-start}
+  .summary{grid-template-columns:repeat(2,1fr)}
+  .day-card{padding:10px}
+  .day-card.carlos-day{margin:5px}
+  .sectors-grid{grid-template-columns:1fr}
+  .sector:first-child{grid-column:auto}
+  .name{font-size:.66rem}
+}
+@media(prefers-reduced-motion:reduce){
+  *{scroll-behavior:auto!important}
+  .day-card.carlos-day{animation:none}
+}
+@media print{
+  @page{size:A4 landscape;margin:6mm}
+  body{background:#fff;color:#000}
+  .app-shell{max-width:none;padding:0}
+  .hero-actions,.toolbar,.trades-box,footer{display:none!important}
+  .hero{border:0;box-shadow:none;padding:0 0 6mm;background:#fff}
+  .hero p,.legend-text,.sector-time,.week-head small{color:#555}
+  .summary{display:none}
+  .week-card{box-shadow:none;background:#fff;border-color:#bbb;break-inside:avoid;margin:0 0 5mm}
+  .week-head{background:#eee}
+  .day-card{background:#fff;border-color:#ddd;padding:6px 7px}
+  .day-card.carlos-day{animation:none;margin:3px;border:1.5px solid #008c80;box-shadow:none;background:#f1fffd}
+  .sector{background:#fff;border-color:#ccc;padding:5px}
+  .sector.carlos-sector{background:#f1fffd;border-color:#52a89f}
+  .sector-title,.name{color:#111}
+  .name.carlos{color:#000;background:#b9fff6;border-color:#008c80;box-shadow:none}
+  .trade-mark{color:#333;border-color:#bbb;background:#f4f4f4}
+}
+
+</style>
+</head>
+<body>
+  <div class="app-shell">
+    <header class="hero">
+      <div>
+        <div class="eyebrow">Urgência e Emergência • Rodízio 2026</div>
+        <h1>Escala Completa</h1>
+        <p>21/09 a 08/11 • todos os setores, todos os dias e todas as equipes</p>
+        <div class="legend">
+          <span class="legend-chip carlos-legend">Carlos</span>
+          <span class="legend-text">dia/setor com seu nome = destaque neon</span>
+        </div>
+      </div>
+      <div class="hero-actions">
+        <button id="btnAll" class="btn active">Todos os dias</button>
+        <button id="btnCarlos" class="btn">Só dias com Carlos</button>
+        <button id="btnPrint" class="btn">Imprimir / PDF</button>
+      </div>
+    </header>
+
+    <section id="summary" class="summary"></section>
+
+    <section class="toolbar">
+      <div id="weekTabs" class="week-tabs" aria-label="Semanas"></div>
+      <button id="btnCurrent" class="btn btn-subtle">Semana atual</button>
+    </section>
+
+    <main id="scheduleRoot"></main>
+
+    <section class="trades-box">
+      <button id="tradeToggle" class="trades-toggle">
+        <span>
+          <strong>Trocas aplicadas</strong>
+          <small>IDs 09–16 • toque para consultar</small>
+        </span>
+        <span id="tradeArrow">＋</span>
+      </button>
+      <div id="tradePanel" class="trades-panel hidden"></div>
+    </section>
+
+    <footer>
+      Base: escala completa atualizada enviada pelo usuário + trocas confirmadas.
+      O ID 14 foi corrigido para Eixo Diurno • 06/11 • 12h.
+    </footer>
+  </div>
+
+  <script>
+const BASE_SCHEDULE = [
+  {
+    "week": 1,
+    "period": "21/09 a 27/09",
+    "days": [
+      {
+        "date": "2026-09-21",
+        "weekday": "Segunda",
+        "sectors": {
+          "eixoDia": {
+            "label": "Eixo Diurno",
+            "time": "07h–19h",
+            "names": [
+              "Jean",
+              "Adley",
+              "Luiz",
+              "Diego*"
+            ],
+            "tradeIds": []
+          },
+          "porta": {
+            "label": "Porta HUL",
+            "time": "07h–19h",
+            "names": [
+              "Adyson"
+            ],
+            "tradeIds": []
+          },
+          "utiHul": {
+            "label": "UTI HUL",
+            "time": "07h–19h",
+            "names": [
+              "Carlos"
+            ],
+            "tradeIds": []
+          },
+          "utiConceicao": {
+            "label": "UTI Conceição",
+            "time": "07h–19h",
+            "names": [
+              "Gabriel"
+            ],
+            "tradeIds": []
+          },
+          "eixoNoite": {
+            "label": "Eixo Noturno",
+            "time": "19h–01h",
+            "names": [
+              "Jean",
+              "Sara",
+              "Marcelo"
+            ],
+            "tradeIds": []
+          }
+        }
+      },
+      {
+        "date": "2026-09-22",
+        "weekday": "Terça",
+        "sectors": {
+          "eixoDia": {
+            "label": "Eixo Diurno",
+            "time": "07h–19h",
+            "names": [
+              "Jean",
+              "Carlos",
+              "Daniel",
+              "Diego*"
+            ],
+            "tradeIds": []
+          },
+          "porta": {
+            "label": "Porta HUL",
+            "time": "07h–19h",
+            "names": [
+              "Gessica"
+            ],
+            "tradeIds": []
+          },
+          "utiHul": {
+            "label": "UTI HUL",
+            "time": "07h–19h",
+            "names": [
+              "Fabrício"
+            ],
+            "tradeIds": []
+          },
+          "utiConceicao": {
+            "label": "UTI Conceição",
+            "time": "07h–19h",
+            "names": [
+              "Sara"
+            ],
+            "tradeIds": []
+          },
+          "eixoNoite": {
+            "label": "Eixo Noturno",
+            "time": "19h–01h",
+            "names": [
+              "Leonardo",
+              "Gabriel"
+            ],
+            "tradeIds": []
+          }
+        }
+      },
+      {
+        "date": "2026-09-23",
+        "weekday": "Quarta",
+        "sectors": {
+          "eixoDia": {
+            "label": "Eixo Diurno",
+            "time": "07h–19h",
+            "names": [
+              "Leonardo",
+              "Jean",
+              "Adyson",
+              "Marcelo"
+            ],
+            "tradeIds": []
+          },
+          "porta": {
+            "label": "Porta HUL",
+            "time": "07h–19h",
+            "names": [
+              "Alycia"
+            ],
+            "tradeIds": []
+          },
+          "utiHul": {
+            "label": "UTI HUL",
+            "time": "07h–19h",
+            "names": [
+              "Victor Hugo"
+            ],
+            "tradeIds": []
+          },
+          "utiConceicao": {
+            "label": "UTI Conceição",
+            "time": "07h–19h",
+            "names": [
+              "Marlos"
+            ],
+            "tradeIds": []
+          },
+          "eixoNoite": {
+            "label": "Eixo Noturno",
+            "time": "19h–01h",
+            "names": [
+              "Fabrício",
+              "Gessica",
+              "Diego*"
+            ],
+            "tradeIds": []
+          }
+        }
+      },
+      {
+        "date": "2026-09-24",
+        "weekday": "Quinta",
+        "sectors": {
+          "eixoDia": {
+            "label": "Eixo Diurno",
+            "time": "07h–19h",
+            "names": [
+              "Victor Hugo",
+              "Adley",
+              "Gessica",
+              "Diego*"
+            ],
+            "tradeIds": []
+          },
+          "porta": {
+            "label": "Porta HUL",
+            "time": "07h–19h",
+            "names": [
+              "Gabriel"
+            ],
+            "tradeIds": []
+          },
+          "utiHul": {
+            "label": "UTI HUL",
+            "time": "07h–19h",
+            "names": [
+              "Leonardo"
+            ],
+            "tradeIds": []
+          },
+          "utiConceicao": {
+            "label": "UTI Conceição",
+            "time": "07h–19h",
+            "names": [
+              "Luiz"
+            ],
+            "tradeIds": []
+          },
+          "eixoNoite": {
+            "label": "Eixo Noturno",
+            "time": "19h–01h",
+            "names": [
+              "Victor Hugo",
+              "Daniel"
+            ],
+            "tradeIds": []
+          }
+        }
+      },
+      {
+        "date": "2026-09-25",
+        "weekday": "Sexta",
+        "sectors": {
+          "eixoDia": {
+            "label": "Eixo Diurno",
+            "time": "07h–19h",
+            "names": [
+              "Leonardo",
+              "Fabrício",
+              "Marlos",
+              "Victor Hugo"
+            ],
+            "tradeIds": []
+          },
+          "porta": {
+            "label": "Porta HUL",
+            "time": "07h–19h",
+            "names": [
+              "Sara"
+            ],
+            "tradeIds": []
+          },
+          "utiHul": {
+            "label": "UTI HUL",
+            "time": "07h–19h",
+            "names": [
+              "Adley"
+            ],
+            "tradeIds": []
+          },
+          "utiConceicao": {
+            "label": "UTI Conceição",
+            "time": "07h–19h",
+            "names": [
+              "Daniel"
+            ],
+            "tradeIds": []
+          },
+          "eixoNoite": {
+            "label": "Eixo Noturno",
+            "time": "19h–01h",
+            "names": [
+              "Adley",
+              "Carlos",
+              "Diego*"
+            ],
+            "tradeIds": []
+          }
+        }
+      },
+      {
+        "date": "2026-09-26",
+        "weekday": "Sábado",
+        "sectors": {
+          "eixoDia": {
+            "label": "Eixo Diurno",
+            "time": "07h–19h",
+            "names": [
+              "Marcelo",
+              "Sara",
+              "Alycia",
+              "Diego*"
+            ],
+            "tradeIds": []
+          },
+          "porta": {
+            "label": "Porta HUL",
+            "time": "07h–19h",
+            "names": [
+              "Adyson"
+            ],
+            "tradeIds": []
+          },
+          "utiHul": {
+            "label": "UTI HUL",
+            "time": "07h–19h",
+            "names": [
+              "Gessica"
+            ],
+            "tradeIds": []
+          },
+          "utiConceicao": {
+            "label": "UTI Conceição",
+            "time": "07h–19h",
+            "names": [
+              "Luiz"
+            ],
+            "tradeIds": []
+          },
+          "eixoNoite": {
+            "label": "Eixo Noturno",
+            "time": "19h–01h",
+            "names": [
+              "Adyson",
+              "Marlos"
+            ],
+            "tradeIds": []
+          }
+        }
+      },
+      {
+        "date": "2026-09-27",
+        "weekday": "Domingo",
+        "sectors": {
+          "eixoDia": {
+            "label": "Eixo Diurno",
+            "time": "07h–19h",
+            "names": [
+              "Carlos",
+              "Daniel",
+              "Marlos",
+              "Marcelo"
+            ],
+            "tradeIds": []
+          },
+          "porta": {
+            "label": "Porta HUL",
+            "time": "07h–19h",
+            "names": [
+              "Gabriel"
+            ],
+            "tradeIds": []
+          },
+          "utiHul": {
+            "label": "UTI HUL",
+            "time": "07h–19h",
+            "names": [
+              "Alycia"
+            ],
+            "tradeIds": []
+          },
+          "utiConceicao": {
+            "label": "UTI Conceição",
+            "time": "07h–19h",
+            "names": [
+              "Gessica"
+            ],
+            "tradeIds": []
+          },
+          "eixoNoite": {
+            "label": "Eixo Noturno",
+            "time": "19h–01h",
+            "names": [
+              "Luiz",
+              "Alycia"
+            ],
+            "tradeIds": []
+          }
+        }
+      }
+    ]
+  },
+  {
+    "week": 2,
+    "period": "28/09 a 04/10",
+    "days": [
+      {
+        "date": "2026-09-28",
+        "weekday": "Segunda",
+        "sectors": {
+          "eixoDia": {
+            "label": "Eixo Diurno",
+            "time": "07h–19h",
+            "names": [
+              "Fabrício",
+              "Jean",
+              "Gabriel",
+              "Diego*"
+            ],
+            "tradeIds": []
+          },
+          "porta": {
+            "label": "Porta HUL",
+            "time": "07h–19h",
+            "names": [
+              "Marlos"
+            ],
+            "tradeIds": []
+          },
+          "utiHul": {
+            "label": "UTI HUL",
+            "time": "07h–19h",
+            "names": [
+              "Carlos"
+            ],
+            "tradeIds": []
+          },
+          "utiConceicao": {
+            "label": "UTI Conceição",
+            "time": "07h–19h",
+            "names": [
+              "Adyson"
+            ],
+            "tradeIds": []
+          },
+          "eixoNoite": {
+            "label": "Eixo Noturno",
+            "time": "19h–01h",
+            "names": [
+              "Adley",
+              "Victor Hugo"
+            ],
+            "tradeIds": []
+          }
+        }
+      },
+      {
+        "date": "2026-09-29",
+        "weekday": "Terça",
+        "sectors": {
+          "eixoDia": {
+            "label": "Eixo Diurno",
+            "time": "07h–19h",
+            "names": [
+              "Leonardo",
+              "Victor Hugo",
+              "Fabrício",
+              "Diego*"
+            ],
+            "tradeIds": []
+          },
+          "porta": {
+            "label": "Porta HUL",
+            "time": "07h–19h",
+            "names": [
+              "Adyson"
+            ],
+            "tradeIds": []
+          },
+          "utiHul": {
+            "label": "UTI HUL",
+            "time": "07h–19h",
+            "names": [
+              "Adley"
+            ],
+            "tradeIds": []
+          },
+          "utiConceicao": {
+            "label": "UTI Conceição",
+            "time": "07h–19h",
+            "names": [
+              "Gessica"
+            ],
+            "tradeIds": []
+          },
+          "eixoNoite": {
+            "label": "Eixo Noturno",
+            "time": "19h–01h",
+            "names": [
+              "Carlos",
+              "Adyson",
+              "Marcelo"
+            ],
+            "tradeIds": []
+          }
+        }
+      },
+      {
+        "date": "2026-09-30",
+        "weekday": "Quarta",
+        "sectors": {
+          "eixoDia": {
+            "label": "Eixo Diurno",
+            "time": "07h–19h",
+            "names": [
+              "Carlos",
+              "Adley",
+              "Leonardo",
+              "Diego*"
+            ],
+            "tradeIds": []
+          },
+          "porta": {
+            "label": "Porta HUL",
+            "time": "07h–19h",
+            "names": [
+              "Daniel"
+            ],
+            "tradeIds": []
+          },
+          "utiHul": {
+            "label": "UTI HUL",
+            "time": "07h–19h",
+            "names": [
+              "Fabrício"
+            ],
+            "tradeIds": []
+          },
+          "utiConceicao": {
+            "label": "UTI Conceição",
+            "time": "07h–19h",
+            "names": [
+              "Alycia"
+            ],
+            "tradeIds": []
+          },
+          "eixoNoite": {
+            "label": "Eixo Noturno",
+            "time": "19h–01h",
+            "names": [
+              "Leonardo",
+              "Luiz"
+            ],
+            "tradeIds": []
+          }
+        }
+      },
+      {
+        "date": "2026-10-01",
+        "weekday": "Quinta",
+        "sectors": {
+          "eixoDia": {
+            "label": "Eixo Diurno",
+            "time": "07h–19h",
+            "names": [
+              "Leonardo",
+              "Jean",
+              "Luiz",
+              "Marcelo"
+            ],
+            "tradeIds": []
+          },
+          "porta": {
+            "label": "Porta HUL",
+            "time": "07h–19h",
+            "names": [
+              "Adyson"
+            ],
+            "tradeIds": []
+          },
+          "utiHul": {
+            "label": "UTI HUL",
+            "time": "07h–19h",
+            "names": [
+              "Victor Hugo"
+            ],
+            "tradeIds": []
+          },
+          "utiConceicao": {
+            "label": "UTI Conceição",
+            "time": "07h–19h",
+            "names": [
+              "Gabriel"
+            ],
+            "tradeIds": []
+          },
+          "eixoNoite": {
+            "label": "Eixo Noturno",
+            "time": "19h–01h",
+            "names": [
+              "Fabrício",
+              "Sara",
+              "Diego*"
+            ],
+            "tradeIds": []
+          }
+        }
+      },
+      {
+        "date": "2026-10-02",
+        "weekday": "Sexta",
+        "sectors": {
+          "eixoDia": {
+            "label": "Eixo Diurno",
+            "time": "07h–19h",
+            "names": [
+              "Carlos",
+              "Adley",
+              "Alycia",
+              "Marcelo"
+            ],
+            "tradeIds": []
+          },
+          "porta": {
+            "label": "Porta HUL",
+            "time": "07h–19h",
+            "names": [
+              "Gessica"
+            ],
+            "tradeIds": []
+          },
+          "utiHul": {
+            "label": "UTI HUL",
+            "time": "07h–19h",
+            "names": [
+              "Jean"
+            ],
+            "tradeIds": []
+          },
+          "utiConceicao": {
+            "label": "UTI Conceição",
+            "time": "07h–19h",
+            "names": [
+              "Sara"
+            ],
+            "tradeIds": []
+          },
+          "eixoNoite": {
+            "label": "Eixo Noturno",
+            "time": "19h–01h",
+            "names": [
+              "Jean",
+              "Marlos",
+              "Diego*"
+            ],
+            "tradeIds": []
+          }
+        }
+      },
+      {
+        "date": "2026-10-03",
+        "weekday": "Sábado",
+        "sectors": {
+          "eixoDia": {
+            "label": "Eixo Diurno",
+            "time": "07h–19h",
+            "names": [
+              "Sara",
+              "Gessica",
+              "Daniel",
+              "Marcelo"
+            ],
+            "tradeIds": []
+          },
+          "porta": {
+            "label": "Porta HUL",
+            "time": "07h–19h",
+            "names": [
+              "Luiz"
+            ],
+            "tradeIds": []
+          },
+          "utiHul": {
+            "label": "UTI HUL",
+            "time": "07h–19h",
+            "names": [
+              "Marlos"
+            ],
+            "tradeIds": []
+          },
+          "utiConceicao": {
+            "label": "UTI Conceição",
+            "time": "07h–19h",
+            "names": [
+              "Gabriel"
+            ],
+            "tradeIds": []
+          },
+          "eixoNoite": {
+            "label": "Eixo Noturno",
+            "time": "19h–01h",
+            "names": [
+              "Gessica",
+              "Alycia"
+            ],
+            "tradeIds": []
+          }
+        }
+      },
+      {
+        "date": "2026-10-04",
+        "weekday": "Domingo",
+        "sectors": {
+          "eixoDia": {
+            "label": "Eixo Diurno",
+            "time": "07h–19h",
+            "names": [
+              "Victor Hugo",
+              "Sara",
+              "Alycia",
+              "Diego*"
+            ],
+            "tradeIds": []
+          },
+          "porta": {
+            "label": "Porta HUL",
+            "time": "07h–19h",
+            "names": [
+              "Marlos"
+            ],
+            "tradeIds": []
+          },
+          "utiHul": {
+            "label": "UTI HUL",
+            "time": "07h–19h",
+            "names": [
+              "Daniel"
+            ],
+            "tradeIds": []
+          },
+          "utiConceicao": {
+            "label": "UTI Conceição",
+            "time": "07h–19h",
+            "names": [
+              "Luiz"
+            ],
+            "tradeIds": []
+          },
+          "eixoNoite": {
+            "label": "Eixo Noturno",
+            "time": "19h–01h",
+            "names": [
+              "Gabriel",
+              "Daniel"
+            ],
+            "tradeIds": []
+          }
+        }
+      }
+    ]
+  },
+  {
+    "week": 3,
+    "period": "05/10 a 11/10",
+    "days": [
+      {
+        "date": "2026-10-05",
+        "weekday": "Segunda",
+        "sectors": {
+          "eixoDia": {
+            "label": "Eixo Diurno",
+            "time": "07h–19h",
+            "names": [
+              "Carlos",
+              "Leonardo",
+              "Adyson",
+              "Marcelo"
+            ],
+            "tradeIds": []
+          },
+          "porta": {
+            "label": "Porta HUL",
+            "time": "07h–19h",
+            "names": [
+              "Alycia"
+            ],
+            "tradeIds": []
+          },
+          "utiHul": {
+            "label": "UTI HUL",
+            "time": "07h–19h",
+            "names": [
+              "Victor Hugo"
+            ],
+            "tradeIds": []
+          },
+          "utiConceicao": {
+            "label": "UTI Conceição",
+            "time": "07h–19h",
+            "names": [
+              "Marlos"
+            ],
+            "tradeIds": []
+          },
+          "eixoNoite": {
+            "label": "Eixo Noturno",
+            "time": "19h–01h",
+            "names": [
+              "Jean",
+              "Luiz",
+              "Diego*"
+            ],
+            "tradeIds": []
+          }
+        }
+      },
+      {
+        "date": "2026-10-06",
+        "weekday": "Terça",
+        "sectors": {
+          "eixoDia": {
+            "label": "Eixo Diurno",
+            "time": "07h–19h",
+            "names": [
+              "Adley",
+              "Fabrício",
+              "Gessica",
+              "Diego*"
+            ],
+            "tradeIds": []
+          },
+          "porta": {
+            "label": "Porta HUL",
+            "time": "07h–19h",
+            "names": [
+              "Gabriel"
+            ],
+            "tradeIds": []
+          },
+          "utiHul": {
+            "label": "UTI HUL",
+            "time": "07h–19h",
+            "names": [
+              "Leonardo"
+            ],
+            "tradeIds": []
+          },
+          "utiConceicao": {
+            "label": "UTI Conceição",
+            "time": "07h–19h",
+            "names": [
+              "Luiz"
+            ],
+            "tradeIds": []
+          },
+          "eixoNoite": {
+            "label": "Eixo Noturno",
+            "time": "19h–01h",
+            "names": [
+              "Victor Hugo",
+              "Marlos"
+            ],
+            "tradeIds": []
+          }
+        }
+      },
+      {
+        "date": "2026-10-07",
+        "weekday": "Quarta",
+        "sectors": {
+          "eixoDia": {
+            "label": "Eixo Diurno",
+            "time": "07h–19h",
+            "names": [
+              "Victor Hugo",
+              "Jean",
+              "Alycia",
+              "Marcelo"
+            ],
+            "tradeIds": []
+          },
+          "porta": {
+            "label": "Porta HUL",
+            "time": "07h–19h",
+            "names": [
+              "Sara"
+            ],
+            "tradeIds": []
+          },
+          "utiHul": {
+            "label": "UTI HUL",
+            "time": "07h–19h",
+            "names": [
+              "Adley"
+            ],
+            "tradeIds": []
+          },
+          "utiConceicao": {
+            "label": "UTI Conceição",
+            "time": "07h–19h",
+            "names": [
+              "Daniel"
+            ],
+            "tradeIds": []
+          },
+          "eixoNoite": {
+            "label": "Eixo Noturno",
+            "time": "19h–01h",
+            "names": [
+              "Carlos",
+              "Gabriel",
+              "Diego*"
+            ],
+            "tradeIds": []
+          }
+        }
+      },
+      {
+        "date": "2026-10-08",
+        "weekday": "Quinta",
+        "sectors": {
+          "eixoDia": {
+            "label": "Eixo Diurno",
+            "time": "07h–19h",
+            "names": [
+              "Carlos",
+              "Leonardo",
+              "Gabriel",
+              "Diego*"
+            ],
+            "tradeIds": []
+          },
+          "porta": {
+            "label": "Porta HUL",
+            "time": "07h–19h",
+            "names": [
+              "Marlos"
+            ],
+            "tradeIds": []
+          },
+          "utiHul": {
+            "label": "UTI HUL",
+            "time": "07h–19h",
+            "names": [
+              "Fabrício"
+            ],
+            "tradeIds": []
+          },
+          "utiConceicao": {
+            "label": "UTI Conceição",
+            "time": "07h–19h",
+            "names": [
+              "Adyson"
+            ],
+            "tradeIds": []
+          },
+          "eixoNoite": {
+            "label": "Eixo Noturno",
+            "time": "19h–01h",
+            "names": [
+              "Adley",
+              "Leonardo"
+            ],
+            "tradeIds": []
+          }
+        }
+      },
+      {
+        "date": "2026-10-09",
+        "weekday": "Sexta",
+        "sectors": {
+          "eixoDia": {
+            "label": "Eixo Diurno",
+            "time": "07h–19h",
+            "names": [
+              "Victor Hugo",
+              "Jean",
+              "Adley",
+              "Diego*"
+            ],
+            "tradeIds": []
+          },
+          "porta": {
+            "label": "Porta HUL",
+            "time": "07h–19h",
+            "names": [
+              "Luiz"
+            ],
+            "tradeIds": []
+          },
+          "utiHul": {
+            "label": "UTI HUL",
+            "time": "07h–19h",
+            "names": [
+              "Sara"
+            ],
+            "tradeIds": []
+          },
+          "utiConceicao": {
+            "label": "UTI Conceição",
+            "time": "07h–19h",
+            "names": [
+              "Gessica"
+            ],
+            "tradeIds": []
+          },
+          "eixoNoite": {
+            "label": "Eixo Noturno",
+            "time": "19h–01h",
+            "names": [
+              "Fabrício",
+              "Alycia",
+              "Marcelo"
+            ],
+            "tradeIds": []
+          }
+        }
+      },
+      {
+        "date": "2026-10-10",
+        "weekday": "Sábado",
+        "sectors": {
+          "eixoDia": {
+            "label": "Eixo Diurno",
+            "time": "07h–19h",
+            "names": [
+              "Daniel",
+              "Luiz",
+              "Sara",
+              "Diego*"
+            ],
+            "tradeIds": []
+          },
+          "porta": {
+            "label": "Porta HUL",
+            "time": "07h–19h",
+            "names": [
+              "Alycia"
+            ],
+            "tradeIds": []
+          },
+          "utiHul": {
+            "label": "UTI HUL",
+            "time": "07h–19h",
+            "names": [
+              "Carlos"
+            ],
+            "tradeIds": []
+          },
+          "utiConceicao": {
+            "label": "UTI Conceição",
+            "time": "07h–19h",
+            "names": [
+              "Adyson"
+            ],
+            "tradeIds": []
+          },
+          "eixoNoite": {
+            "label": "Eixo Noturno",
+            "time": "19h–01h",
+            "names": [
+              "Gessica",
+              "Daniel"
+            ],
+            "tradeIds": []
+          }
+        }
+      },
+      {
+        "date": "2026-10-11",
+        "weekday": "Domingo",
+        "sectors": {
+          "eixoDia": {
+            "label": "Eixo Diurno",
+            "time": "07h–19h",
+            "names": [
+              "Fabrício",
+              "Gessica",
+              "Daniel",
+              "Marcelo"
+            ],
+            "tradeIds": []
+          },
+          "porta": {
+            "label": "Porta HUL",
+            "time": "07h–19h",
+            "names": [
+              "Marlos"
+            ],
+            "tradeIds": []
+          },
+          "utiHul": {
+            "label": "UTI HUL",
+            "time": "07h–19h",
+            "names": [
+              "Jean"
+            ],
+            "tradeIds": []
+          },
+          "utiConceicao": {
+            "label": "UTI Conceição",
+            "time": "07h–19h",
+            "names": [
+              "Gabriel"
+            ],
+            "tradeIds": []
+          },
+          "eixoNoite": {
+            "label": "Eixo Noturno",
+            "time": "19h–01h",
+            "names": [
+              "Adyson",
+              "Sara"
+            ],
+            "tradeIds": []
+          }
+        }
+      }
+    ]
+  },
+  {
+    "week": 4,
+    "period": "12/10 a 18/10",
+    "days": [
+      {
+        "date": "2026-10-12",
+        "weekday": "Segunda",
+        "sectors": {
+          "eixoDia": {
+            "label": "Eixo Diurno",
+            "time": "07h–19h",
+            "names": [
+              "Victor Hugo",
+              "Carlos",
+              "Marlos",
+              "Marcelo"
+            ],
+            "tradeIds": []
+          },
+          "porta": {
+            "label": "Porta HUL",
+            "time": "07h–19h",
+            "names": [
+              "Daniel"
+            ],
+            "tradeIds": []
+          },
+          "utiHul": {
+            "label": "UTI HUL",
+            "time": "07h–19h",
+            "names": [
+              "Fabrício"
+            ],
+            "tradeIds": []
+          },
+          "utiConceicao": {
+            "label": "UTI Conceição",
+            "time": "07h–19h",
+            "names": [
+              "Alycia"
+            ],
+            "tradeIds": []
+          },
+          "eixoNoite": {
+            "label": "Eixo Noturno",
+            "time": "19h–01h",
+            "names": [
+              "Leonardo",
+              "Gabriel",
+              "Diego*"
+            ],
+            "tradeIds": []
+          }
+        }
+      },
+      {
+        "date": "2026-10-13",
+        "weekday": "Terça",
+        "sectors": {
+          "eixoDia": {
+            "label": "Eixo Diurno",
+            "time": "07h–19h",
+            "names": [
+              "Jean",
+              "Adley",
+              "Luiz",
+              "Diego*",
+              "Marcelo"
+            ],
+            "tradeIds": []
+          },
+          "porta": {
+            "label": "Porta HUL",
+            "time": "07h–19h",
+            "names": [
+              "Adyson"
+            ],
+            "tradeIds": []
+          },
+          "utiHul": {
+            "label": "UTI HUL",
+            "time": "07h–19h",
+            "names": [
+              "Leonardo"
+            ],
+            "tradeIds": []
+          },
+          "utiConceicao": {
+            "label": "UTI Conceição",
+            "time": "07h–19h",
+            "names": [
+              "Gabriel"
+            ],
+            "tradeIds": []
+          },
+          "eixoNoite": {
+            "label": "Eixo Noturno",
+            "time": "19h–01h",
+            "names": [
+              "Fabrício",
+              "Alycia"
+            ],
+            "tradeIds": []
+          }
+        }
+      },
+      {
+        "date": "2026-10-14",
+        "weekday": "Quarta",
+        "sectors": {
+          "eixoDia": {
+            "label": "Eixo Diurno",
+            "time": "07h–19h",
+            "names": [
+              "Fabrício",
+              "Leonardo",
+              "Daniel",
+              "Diego*"
+            ],
+            "tradeIds": []
+          },
+          "porta": {
+            "label": "Porta HUL",
+            "time": "07h–19h",
+            "names": [
+              "Gessica"
+            ],
+            "tradeIds": []
+          },
+          "utiHul": {
+            "label": "UTI HUL",
+            "time": "07h–19h",
+            "names": [
+              "Jean"
+            ],
+            "tradeIds": []
+          },
+          "utiConceicao": {
+            "label": "UTI Conceição",
+            "time": "07h–19h",
+            "names": [
+              "Sara"
+            ],
+            "tradeIds": []
+          },
+          "eixoNoite": {
+            "label": "Eixo Noturno",
+            "time": "19h–01h",
+            "names": [
+              "Victor Hugo",
+              "Adyson",
+              "Marcelo"
+            ],
+            "tradeIds": []
+          }
+        }
+      },
+      {
+        "date": "2026-10-15",
+        "weekday": "Quinta",
+        "sectors": {
+          "eixoDia": {
+            "label": "Eixo Diurno",
+            "time": "07h–19h",
+            "names": [
+              "Victor Hugo",
+              "Carlos",
+              "Adyson",
+              "Diego*"
+            ],
+            "tradeIds": []
+          },
+          "porta": {
+            "label": "Porta HUL",
+            "time": "07h–19h",
+            "names": [
+              "Alycia"
+            ],
+            "tradeIds": []
+          },
+          "utiHul": {
+            "label": "UTI HUL",
+            "time": "07h–19h",
+            "names": [
+              "Adley"
+            ],
+            "tradeIds": []
+          },
+          "utiConceicao": {
+            "label": "UTI Conceição",
+            "time": "07h–19h",
+            "names": [
+              "Marlos"
+            ],
+            "tradeIds": []
+          },
+          "eixoNoite": {
+            "label": "Eixo Noturno",
+            "time": "19h–01h",
+            "names": [
+              "Jean",
+              "Luiz"
+            ],
+            "tradeIds": []
+          }
+        }
+      },
+      {
+        "date": "2026-10-16",
+        "weekday": "Sexta",
+        "sectors": {
+          "eixoDia": {
+            "label": "Eixo Diurno",
+            "time": "07h–19h",
+            "names": [
+              "Fabrício",
+              "Leonardo",
+              "Sara",
+              "Marcelo"
+            ],
+            "tradeIds": []
+          },
+          "porta": {
+            "label": "Porta HUL",
+            "time": "07h–19h",
+            "names": [
+              "Gabriel"
+            ],
+            "tradeIds": []
+          },
+          "utiHul": {
+            "label": "UTI HUL",
+            "time": "07h–19h",
+            "names": [
+              "Gessica"
+            ],
+            "tradeIds": []
+          },
+          "utiConceicao": {
+            "label": "UTI Conceição",
+            "time": "07h–19h",
+            "names": [
+              "Luiz"
+            ],
+            "tradeIds": []
+          },
+          "eixoNoite": {
+            "label": "Eixo Noturno",
+            "time": "19h–01h",
+            "names": [
+              "Carlos",
+              "Adley",
+              "Diego*"
+            ],
+            "tradeIds": []
+          }
+        }
+      },
+      {
+        "date": "2026-10-17",
+        "weekday": "Sábado",
+        "sectors": {
+          "eixoDia": {
+            "label": "Eixo Diurno",
+            "time": "07h–19h",
+            "names": [
+              "Jean",
+              "Gabriel",
+              "Gessica"
+            ],
+            "tradeIds": []
+          },
+          "porta": {
+            "label": "Porta HUL",
+            "time": "07h–19h",
+            "names": [
+              "Daniel"
+            ],
+            "tradeIds": []
+          },
+          "utiHul": {
+            "label": "UTI HUL",
+            "time": "07h–19h",
+            "names": [
+              "Victor Hugo"
+            ],
+            "tradeIds": []
+          },
+          "utiConceicao": {
+            "label": "UTI Conceição",
+            "time": "07h–19h",
+            "names": [
+              "Marlos"
+            ],
+            "tradeIds": []
+          },
+          "eixoNoite": {
+            "label": "Eixo Noturno",
+            "time": "19h–01h",
+            "names": [
+              "Daniel",
+              "Sara"
+            ],
+            "tradeIds": []
+          }
+        }
+      },
+      {
+        "date": "2026-10-18",
+        "weekday": "Domingo",
+        "sectors": {
+          "eixoDia": {
+            "label": "Eixo Diurno",
+            "time": "07h–19h",
+            "names": [
+              "Adley",
+              "Luiz",
+              "Sara",
+              "Diego*"
+            ],
+            "tradeIds": []
+          },
+          "porta": {
+            "label": "Porta HUL",
+            "time": "07h–19h",
+            "names": [
+              "Alycia"
+            ],
+            "tradeIds": []
+          },
+          "utiHul": {
+            "label": "UTI HUL",
+            "time": "07h–19h",
+            "names": [
+              "Carlos"
+            ],
+            "tradeIds": []
+          },
+          "utiConceicao": {
+            "label": "UTI Conceição",
+            "time": "07h–19h",
+            "names": [
+              "Adyson"
+            ],
+            "tradeIds": []
+          },
+          "eixoNoite": {
+            "label": "Eixo Noturno",
+            "time": "19h–01h",
+            "names": [
+              "Marlos",
+              "Gessica"
+            ],
+            "tradeIds": []
+          }
+        }
+      }
+    ]
+  },
+  {
+    "week": 5,
+    "period": "19/10 a 25/10",
+    "days": [
+      {
+        "date": "2026-10-19",
+        "weekday": "Segunda",
+        "sectors": {
+          "eixoDia": {
+            "label": "Eixo Diurno",
+            "time": "07h–19h",
+            "names": [
+              "Fabrício",
+              "Victor Hugo",
+              "Alycia",
+              "Diego*"
+            ],
+            "tradeIds": []
+          },
+          "porta": {
+            "label": "Porta HUL",
+            "time": "07h–19h",
+            "names": [
+              "Sara"
+            ],
+            "tradeIds": []
+          },
+          "utiHul": {
+            "label": "UTI HUL",
+            "time": "07h–19h",
+            "names": [
+              "Adley"
+            ],
+            "tradeIds": []
+          },
+          "utiConceicao": {
+            "label": "UTI Conceição",
+            "time": "07h–19h",
+            "names": [
+              "Daniel"
+            ],
+            "tradeIds": []
+          },
+          "eixoNoite": {
+            "label": "Eixo Noturno",
+            "time": "19h–01h",
+            "names": [
+              "Carlos",
+              "Adyson"
+            ],
+            "tradeIds": []
+          }
+        }
+      },
+      {
+        "date": "2026-10-20",
+        "weekday": "Terça",
+        "sectors": {
+          "eixoDia": {
+            "label": "Eixo Diurno",
+            "time": "07h–19h",
+            "names": [
+              "Leonardo",
+              "Jean",
+              "Gabriel",
+              "Diego*"
+            ],
+            "tradeIds": []
+          },
+          "porta": {
+            "label": "Porta HUL",
+            "time": "07h–19h",
+            "names": [
+              "Marlos"
+            ],
+            "tradeIds": []
+          },
+          "utiHul": {
+            "label": "UTI HUL",
+            "time": "07h–19h",
+            "names": [
+              "Carlos"
+            ],
+            "tradeIds": []
+          },
+          "utiConceicao": {
+            "label": "UTI Conceição",
+            "time": "07h–19h",
+            "names": [
+              "Adyson"
+            ],
+            "tradeIds": []
+          },
+          "eixoNoite": {
+            "label": "Eixo Noturno",
+            "time": "19h–01h",
+            "names": [
+              "Adley",
+              "Daniel"
+            ],
+            "tradeIds": []
+          }
+        }
+      },
+      {
+        "date": "2026-10-21",
+        "weekday": "Quarta",
+        "sectors": {
+          "eixoDia": {
+            "label": "Eixo Diurno",
+            "time": "07h–19h",
+            "names": [
+              "Adley",
+              "Carlos",
+              "Sara",
+              "Diego*"
+            ],
+            "tradeIds": []
+          },
+          "porta": {
+            "label": "Porta HUL",
+            "time": "07h–19h",
+            "names": [
+              "Luiz"
+            ],
+            "tradeIds": []
+          },
+          "utiHul": {
+            "label": "UTI HUL",
+            "time": "07h–19h",
+            "names": [
+              "Leonardo"
+            ],
+            "tradeIds": []
+          },
+          "utiConceicao": {
+            "label": "UTI Conceição",
+            "time": "07h–19h",
+            "names": [
+              "Gessica"
+            ],
+            "tradeIds": []
+          },
+          "eixoNoite": {
+            "label": "Eixo Noturno",
+            "time": "19h–01h",
+            "names": [
+              "Fabrício",
+              "Marlos"
+            ],
+            "tradeIds": []
+          }
+        }
+      },
+      {
+        "date": "2026-10-22",
+        "weekday": "Quinta",
+        "sectors": {
+          "eixoDia": {
+            "label": "Eixo Diurno",
+            "time": "07h–19h",
+            "names": [
+              "Fabrício",
+              "Victor Hugo",
+              "Marlos",
+              "Marcelo"
+            ],
+            "tradeIds": []
+          },
+          "porta": {
+            "label": "Porta HUL",
+            "time": "07h–19h",
+            "names": [
+              "Daniel"
+            ],
+            "tradeIds": []
+          },
+          "utiHul": {
+            "label": "UTI HUL",
+            "time": "07h–19h",
+            "names": [
+              "Jean"
+            ],
+            "tradeIds": []
+          },
+          "utiConceicao": {
+            "label": "UTI Conceição",
+            "time": "07h–19h",
+            "names": [
+              "Alycia"
+            ],
+            "tradeIds": []
+          },
+          "eixoNoite": {
+            "label": "Eixo Noturno",
+            "time": "19h–01h",
+            "names": [
+              "Leonardo",
+              "Gabriel",
+              "Diego*"
+            ],
+            "tradeIds": []
+          }
+        }
+      },
+      {
+        "date": "2026-10-23",
+        "weekday": "Sexta",
+        "sectors": {
+          "eixoDia": {
+            "label": "Eixo Diurno",
+            "time": "07h–19h",
+            "names": [
+              "Adley",
+              "Carlos",
+              "Gessica"
+            ],
+            "tradeIds": []
+          },
+          "porta": {
+            "label": "Porta HUL",
+            "time": "07h–19h",
+            "names": [
+              "Adyson"
+            ],
+            "tradeIds": []
+          },
+          "utiHul": {
+            "label": "UTI HUL",
+            "time": "07h–19h",
+            "names": [
+              "Victor Hugo"
+            ],
+            "tradeIds": []
+          },
+          "utiConceicao": {
+            "label": "UTI Conceição",
+            "time": "07h–19h",
+            "names": [
+              "Gabriel"
+            ],
+            "tradeIds": []
+          },
+          "eixoNoite": {
+            "label": "Eixo Noturno",
+            "time": "19h–01h",
+            "names": [
+              "Victor Hugo",
+              "Jean",
+              "Diego*"
+            ],
+            "tradeIds": []
+          }
+        }
+      },
+      {
+        "date": "2026-10-24",
+        "weekday": "Sábado",
+        "sectors": {
+          "eixoDia": {
+            "label": "Eixo Diurno",
+            "time": "07h–19h",
+            "names": [
+              "Leonardo",
+              "Adyson",
+              "Luiz",
+              "Diego*"
+            ],
+            "tradeIds": []
+          },
+          "porta": {
+            "label": "Porta HUL",
+            "time": "07h–19h",
+            "names": [
+              "Sara"
+            ],
+            "tradeIds": []
+          },
+          "utiHul": {
+            "label": "UTI HUL",
+            "time": "07h–19h",
+            "names": [
+              "Fabrício"
+            ],
+            "tradeIds": []
+          },
+          "utiConceicao": {
+            "label": "UTI Conceição",
+            "time": "07h–19h",
+            "names": [
+              "Alycia"
+            ],
+            "tradeIds": []
+          },
+          "eixoNoite": {
+            "label": "Eixo Noturno",
+            "time": "19h–01h",
+            "names": [
+              "Sara",
+              "Gessica"
+            ],
+            "tradeIds": []
+          }
+        }
+      },
+      {
+        "date": "2026-10-25",
+        "weekday": "Domingo",
+        "sectors": {
+          "eixoDia": {
+            "label": "Eixo Diurno",
+            "time": "07h–19h",
+            "names": [
+              "Jean",
+              "Gabriel",
+              "Gessica"
+            ],
+            "tradeIds": []
+          },
+          "porta": {
+            "label": "Porta HUL",
+            "time": "07h–19h",
+            "names": [
+              "Daniel"
+            ],
+            "tradeIds": []
+          },
+          "utiHul": {
+            "label": "UTI HUL",
+            "time": "07h–19h",
+            "names": [
+              "Luiz"
+            ],
+            "tradeIds": []
+          },
+          "utiConceicao": {
+            "label": "UTI Conceição",
+            "time": "07h–19h",
+            "names": [
+              "Marlos"
+            ],
+            "tradeIds": []
+          },
+          "eixoNoite": {
+            "label": "Eixo Noturno",
+            "time": "19h–01h",
+            "names": [
+              "Alycia",
+              "Luiz"
+            ],
+            "tradeIds": []
+          }
+        }
+      }
+    ]
+  },
+  {
+    "week": 6,
+    "period": "26/10 a 01/11",
+    "days": [
+      {
+        "date": "2026-10-26",
+        "weekday": "Segunda",
+        "sectors": {
+          "eixoDia": {
+            "label": "Eixo Diurno",
+            "time": "07h–19h",
+            "names": [
+              "Adley",
+              "Fabrício",
+              "Daniel"
+            ],
+            "tradeIds": []
+          },
+          "porta": {
+            "label": "Porta HUL",
+            "time": "07h–19h",
+            "names": [
+              "Gessica"
+            ],
+            "tradeIds": []
+          },
+          "utiHul": {
+            "label": "UTI HUL",
+            "time": "07h–19h",
+            "names": [
+              "Jean"
+            ],
+            "tradeIds": []
+          },
+          "utiConceicao": {
+            "label": "UTI Conceição",
+            "time": "07h–19h",
+            "names": [
+              "Sara"
+            ],
+            "tradeIds": []
+          },
+          "eixoNoite": {
+            "label": "Eixo Noturno",
+            "time": "19h–01h",
+            "names": [
+              "Victor Hugo",
+              "Marlos",
+              "Diego*"
+            ],
+            "tradeIds": []
+          }
+        }
+      },
+      {
+        "date": "2026-10-27",
+        "weekday": "Terça",
+        "sectors": {
+          "eixoDia": {
+            "label": "Eixo Diurno",
+            "time": "07h–19h",
+            "names": [
+              "Carlos",
+              "Leonardo",
+              "Adyson",
+              "Diego*"
+            ],
+            "tradeIds": []
+          },
+          "porta": {
+            "label": "Porta HUL",
+            "time": "07h–19h",
+            "names": [
+              "Alycia"
+            ],
+            "tradeIds": []
+          },
+          "utiHul": {
+            "label": "UTI HUL",
+            "time": "07h–19h",
+            "names": [
+              "Victor Hugo"
+            ],
+            "tradeIds": []
+          },
+          "utiConceicao": {
+            "label": "UTI Conceição",
+            "time": "07h–19h",
+            "names": [
+              "Marlos"
+            ],
+            "tradeIds": []
+          },
+          "eixoNoite": {
+            "label": "Eixo Noturno",
+            "time": "19h–01h",
+            "names": [
+              "Jean",
+              "Sara"
+            ],
+            "tradeIds": []
+          }
+        }
+      },
+      {
+        "date": "2026-10-28",
+        "weekday": "Quarta",
+        "sectors": {
+          "eixoDia": {
+            "label": "Eixo Diurno",
+            "time": "07h–19h",
+            "names": [
+              "Jean",
+              "Victor Hugo",
+              "Gessica"
+            ],
+            "tradeIds": []
+          },
+          "porta": {
+            "label": "Porta HUL",
+            "time": "07h–19h",
+            "names": [
+              "Gabriel"
+            ],
+            "tradeIds": []
+          },
+          "utiHul": {
+            "label": "UTI HUL",
+            "time": "07h–19h",
+            "names": [
+              "Carlos"
+            ],
+            "tradeIds": []
+          },
+          "utiConceicao": {
+            "label": "UTI Conceição",
+            "time": "07h–19h",
+            "names": [
+              "Luiz"
+            ],
+            "tradeIds": []
+          },
+          "eixoNoite": {
+            "label": "Eixo Noturno",
+            "time": "19h–01h",
+            "names": [
+              "Adley",
+              "Alycia",
+              "Diego*"
+            ],
+            "tradeIds": []
+          }
+        }
+      },
+      {
+        "date": "2026-10-29",
+        "weekday": "Quinta",
+        "sectors": {
+          "eixoDia": {
+            "label": "Eixo Diurno",
+            "time": "07h–19h",
+            "names": [
+              "Adley",
+              "Fabrício",
+              "Alycia",
+              "Diego*"
+            ],
+            "tradeIds": []
+          },
+          "porta": {
+            "label": "Porta HUL",
+            "time": "07h–19h",
+            "names": [
+              "Sara"
+            ],
+            "tradeIds": []
+          },
+          "utiHul": {
+            "label": "UTI HUL",
+            "time": "07h–19h",
+            "names": [
+              "Leonardo"
+            ],
+            "tradeIds": []
+          },
+          "utiConceicao": {
+            "label": "UTI Conceição",
+            "time": "07h–19h",
+            "names": [
+              "Daniel"
+            ],
+            "tradeIds": []
+          },
+          "eixoNoite": {
+            "label": "Eixo Noturno",
+            "time": "19h–01h",
+            "names": [
+              "Leonardo",
+              "Adyson"
+            ],
+            "tradeIds": []
+          }
+        }
+      },
+      {
+        "date": "2026-10-30",
+        "weekday": "Sexta",
+        "sectors": {
+          "eixoDia": {
+            "label": "Eixo Diurno",
+            "time": "07h–19h",
+            "names": [
+              "Jean",
+              "Victor Hugo",
+              "Luiz",
+              "Diego*"
+            ],
+            "tradeIds": []
+          },
+          "porta": {
+            "label": "Porta HUL",
+            "time": "07h–19h",
+            "names": [
+              "Marlos"
+            ],
+            "tradeIds": []
+          },
+          "utiHul": {
+            "label": "UTI HUL",
+            "time": "07h–19h",
+            "names": [
+              "Gabriel"
+            ],
+            "tradeIds": []
+          },
+          "utiConceicao": {
+            "label": "UTI Conceição",
+            "time": "07h–19h",
+            "names": [
+              "Adyson"
+            ],
+            "tradeIds": []
+          },
+          "eixoNoite": {
+            "label": "Eixo Noturno",
+            "time": "19h–01h",
+            "names": [
+              "Fabrício",
+              "Gessica"
+            ],
+            "tradeIds": []
+          }
+        }
+      },
+      {
+        "date": "2026-10-31",
+        "weekday": "Sábado",
+        "sectors": {
+          "eixoDia": {
+            "label": "Eixo Diurno",
+            "time": "07h–19h",
+            "names": [
+              "Carlos",
+              "Marlos",
+              "Gabriel"
+            ],
+            "tradeIds": []
+          },
+          "porta": {
+            "label": "Porta HUL",
+            "time": "07h–19h",
+            "names": [
+              "Gessica"
+            ],
+            "tradeIds": []
+          },
+          "utiHul": {
+            "label": "UTI HUL",
+            "time": "07h–19h",
+            "names": [
+              "Adley"
+            ],
+            "tradeIds": []
+          },
+          "utiConceicao": {
+            "label": "UTI Conceição",
+            "time": "07h–19h",
+            "names": [
+              "Daniel"
+            ],
+            "tradeIds": []
+          },
+          "eixoNoite": {
+            "label": "Eixo Noturno",
+            "time": "19h–01h",
+            "names": [
+              "Carlos",
+              "Luiz"
+            ],
+            "tradeIds": []
+          }
+        }
+      },
+      {
+        "date": "2026-11-01",
+        "weekday": "Domingo",
+        "sectors": {
+          "eixoDia": {
+            "label": "Eixo Diurno",
+            "time": "07h–19h",
+            "names": [
+              "Leonardo",
+              "Adyson",
+              "Luiz",
+              "Diego*"
+            ],
+            "tradeIds": []
+          },
+          "porta": {
+            "label": "Porta HUL",
+            "time": "07h–19h",
+            "names": [
+              "Sara"
+            ],
+            "tradeIds": []
+          },
+          "utiHul": {
+            "label": "UTI HUL",
+            "time": "07h–19h",
+            "names": [
+              "Fabrício"
+            ],
+            "tradeIds": []
+          },
+          "utiConceicao": {
+            "label": "UTI Conceição",
+            "time": "07h–19h",
+            "names": [
+              "Alycia"
+            ],
+            "tradeIds": []
+          },
+          "eixoNoite": {
+            "label": "Eixo Noturno",
+            "time": "19h–01h",
+            "names": [
+              "Daniel",
+              "Gabriel"
+            ],
+            "tradeIds": []
+          }
+        }
+      }
+    ]
+  },
+  {
+    "week": 7,
+    "period": "02/11 a 08/11",
+    "days": [
+      {
+        "date": "2026-11-02",
+        "weekday": "Segunda",
+        "sectors": {
+          "eixoDia": {
+            "label": "Eixo Diurno",
+            "time": "07h–19h",
+            "names": [
+              "Jean",
+              "Adley",
+              "Sara",
+              "Diego*"
+            ],
+            "tradeIds": []
+          },
+          "porta": {
+            "label": "Porta HUL",
+            "time": "07h–19h",
+            "names": [
+              "Luiz"
+            ],
+            "tradeIds": []
+          },
+          "utiHul": {
+            "label": "UTI HUL",
+            "time": "07h–19h",
+            "names": [
+              "Leonardo"
+            ],
+            "tradeIds": []
+          },
+          "utiConceicao": {
+            "label": "UTI Conceição",
+            "time": "07h–19h",
+            "names": [
+              "Gessica"
+            ],
+            "tradeIds": []
+          },
+          "eixoNoite": {
+            "label": "Eixo Noturno",
+            "time": "19h–01h",
+            "names": [
+              "Fabrício",
+              "Carlos"
+            ],
+            "tradeIds": []
+          }
+        }
+      },
+      {
+        "date": "2026-11-03",
+        "weekday": "Terça",
+        "sectors": {
+          "eixoDia": {
+            "label": "Eixo Diurno",
+            "time": "07h–19h",
+            "names": [
+              "Victor Hugo",
+              "Carlos",
+              "Marlos",
+              "Diego*"
+            ],
+            "tradeIds": []
+          },
+          "porta": {
+            "label": "Porta HUL",
+            "time": "07h–19h",
+            "names": [
+              "Daniel"
+            ],
+            "tradeIds": []
+          },
+          "utiHul": {
+            "label": "UTI HUL",
+            "time": "07h–19h",
+            "names": [
+              "Fabrício"
+            ],
+            "tradeIds": []
+          },
+          "utiConceicao": {
+            "label": "UTI Conceição",
+            "time": "07h–19h",
+            "names": [
+              "Alycia"
+            ],
+            "tradeIds": []
+          },
+          "eixoNoite": {
+            "label": "Eixo Noturno",
+            "time": "19h–01h",
+            "names": [
+              "Leonardo",
+              "Gessica"
+            ],
+            "tradeIds": []
+          }
+        }
+      },
+      {
+        "date": "2026-11-04",
+        "weekday": "Quarta",
+        "sectors": {
+          "eixoDia": {
+            "label": "Eixo Diurno",
+            "time": "07h–19h",
+            "names": [
+              "Leonardo",
+              "Fabrício",
+              "Luiz",
+              "Diego*"
+            ],
+            "tradeIds": []
+          },
+          "porta": {
+            "label": "Porta HUL",
+            "time": "07h–19h",
+            "names": [
+              "Adyson"
+            ],
+            "tradeIds": []
+          },
+          "utiHul": {
+            "label": "UTI HUL",
+            "time": "07h–19h",
+            "names": [
+              "Victor Hugo"
+            ],
+            "tradeIds": []
+          },
+          "utiConceicao": {
+            "label": "UTI Conceição",
+            "time": "07h–19h",
+            "names": [
+              "Gabriel"
+            ],
+            "tradeIds": []
+          },
+          "eixoNoite": {
+            "label": "Eixo Noturno",
+            "time": "19h–01h",
+            "names": [
+              "Jean",
+              "Daniel"
+            ],
+            "tradeIds": []
+          }
+        }
+      },
+      {
+        "date": "2026-11-05",
+        "weekday": "Quinta",
+        "sectors": {
+          "eixoDia": {
+            "label": "Eixo Diurno",
+            "time": "07h–19h",
+            "names": [
+              "Jean",
+              "Adley",
+              "Daniel"
+            ],
+            "tradeIds": []
+          },
+          "porta": {
+            "label": "Porta HUL",
+            "time": "07h–19h",
+            "names": [
+              "Gessica"
+            ],
+            "tradeIds": []
+          },
+          "utiHul": {
+            "label": "UTI HUL",
+            "time": "07h–19h",
+            "names": [
+              "Carlos"
+            ],
+            "tradeIds": []
+          },
+          "utiConceicao": {
+            "label": "UTI Conceição",
+            "time": "07h–19h",
+            "names": [
+              "Sara"
+            ],
+            "tradeIds": []
+          },
+          "eixoNoite": {
+            "label": "Eixo Noturno",
+            "time": "19h–01h",
+            "names": [
+              "Victor Hugo",
+              "Marlos",
+              "Diego*"
+            ],
+            "tradeIds": []
+          }
+        }
+      },
+      {
+        "date": "2026-11-06",
+        "weekday": "Sexta",
+        "sectors": {
+          "eixoDia": {
+            "label": "Eixo Diurno",
+            "time": "07h–19h",
+            "names": [
+              "Leonardo",
+              "Fabrício",
+              "Carlos"
+            ],
+            "tradeIds": []
+          },
+          "porta": {
+            "label": "Porta HUL",
+            "time": "07h–19h",
+            "names": [
+              "Alycia"
+            ],
+            "tradeIds": []
+          },
+          "utiHul": {
+            "label": "UTI HUL",
+            "time": "07h–19h",
+            "names": [
+              "Jean"
+            ],
+            "tradeIds": []
+          },
+          "utiConceicao": {
+            "label": "UTI Conceição",
+            "time": "07h–19h",
+            "names": [
+              "Marlos"
+            ],
+            "tradeIds": []
+          },
+          "eixoNoite": {
+            "label": "Eixo Noturno",
+            "time": "19h–01h",
+            "names": [
+              "Adley",
+              "Luiz",
+              "Diego*"
+            ],
+            "tradeIds": []
+          }
+        }
+      },
+      {
+        "date": "2026-11-07",
+        "weekday": "Sábado",
+        "sectors": {
+          "eixoDia": {
+            "label": "Eixo Diurno",
+            "time": "07h–19h",
+            "names": [
+              "Victor Hugo",
+              "Alycia",
+              "Gabriel",
+              "Diego*"
+            ],
+            "tradeIds": []
+          },
+          "porta": {
+            "label": "Porta HUL",
+            "time": "07h–19h",
+            "names": [
+              "Luiz"
+            ],
+            "tradeIds": []
+          },
+          "utiHul": {
+            "label": "UTI HUL",
+            "time": "07h–19h",
+            "names": [
+              "Adyson"
+            ],
+            "tradeIds": []
+          },
+          "utiConceicao": {
+            "label": "UTI Conceição",
+            "time": "07h–19h",
+            "names": [
+              "Sara"
+            ],
+            "tradeIds": []
+          },
+          "eixoNoite": {
+            "label": "Eixo Noturno",
+            "time": "19h–01h",
+            "names": [
+              "Alycia",
+              "Gabriel"
+            ],
+            "tradeIds": []
+          }
+        }
+      },
+      {
+        "date": "2026-11-08",
+        "weekday": "Domingo",
+        "sectors": {
+          "eixoDia": {
+            "label": "Eixo Diurno",
+            "time": "07h–19h",
+            "names": [
+              "Adyson",
+              "Marlos",
+              "Gabriel"
+            ],
+            "tradeIds": []
+          },
+          "porta": {
+            "label": "Porta HUL",
+            "time": "07h–19h",
+            "names": [
+              "Gessica"
+            ],
+            "tradeIds": []
+          },
+          "utiHul": {
+            "label": "UTI HUL",
+            "time": "07h–19h",
+            "names": [
+              "Adley"
+            ],
+            "tradeIds": []
+          },
+          "utiConceicao": {
+            "label": "UTI Conceição",
+            "time": "07h–19h",
+            "names": [
+              "Daniel"
+            ],
+            "tradeIds": []
+          },
+          "eixoNoite": {
+            "label": "Eixo Noturno",
+            "time": "19h–01h",
+            "names": [
+              "Sara",
+              "Adyson"
+            ],
+            "tradeIds": []
+          }
+        }
+      }
+    ]
+  }
+];
+const TRADES = [
+  {
+    "id": "09",
+    "requester": "Jean",
+    "substitute": "Leonardo",
+    "sector": "eixoDia",
+    "ceded": "2026-10-07",
+    "hours": "12h",
+    "compensation": "2026-10-08"
+  },
+  {
+    "id": "10",
+    "requester": "Jean",
+    "substitute": "Leonardo",
+    "sector": "eixoNoite",
+    "ceded": "2026-10-05",
+    "hours": "6h",
+    "compensation": "2026-10-08"
+  },
+  {
+    "id": "11",
+    "requester": "Jean",
+    "substitute": "Leonardo",
+    "sector": "eixoDia",
+    "ceded": "2026-10-28",
+    "hours": "12h",
+    "compensation": "2026-11-01"
+  },
+  {
+    "id": "12",
+    "requester": "Leonardo",
+    "substitute": "Victor Hugo",
+    "sector": "eixoDia",
+    "ceded": "2026-10-16",
+    "hours": "12h",
+    "compensation": "2026-10-15"
+  },
+  {
+    "id": "13",
+    "requester": "Leonardo",
+    "substitute": "Victor Hugo",
+    "sector": "eixoNoite",
+    "ceded": "2026-10-12",
+    "hours": "6h",
+    "compensation": "2026-10-14"
+  },
+  {
+    "id": "14",
+    "requester": "Leonardo",
+    "substitute": "Victor Hugo",
+    "sector": "eixoDia",
+    "ceded": "2026-11-06",
+    "hours": "12h",
+    "compensation": "2026-11-03"
+  },
+  {
+    "id": "15",
+    "requester": "Victor Hugo",
+    "substitute": "Adley",
+    "sector": "eixoNoite",
+    "ceded": "2026-11-05",
+    "hours": "6h",
+    "compensation": "2026-11-06"
+  },
+  {
+    "id": "16",
+    "requester": "Victor Hugo",
+    "substitute": "Jean",
+    "sector": "eixoDia",
+    "ceded": "2026-09-29",
+    "hours": "12h",
+    "compensation": "2026-11-28"
+  }
+];
+
+</script>
+<script>
+
+const TARGET = "Carlos";
+const state = { week: "all", onlyCarlos: false };
+
+function deepClone(obj){ return JSON.parse(JSON.stringify(obj)); }
+
+function findDay(schedule, date){
+  for(const week of schedule){
+    const day = week.days.find(d => d.date === date);
+    if(day) return day;
+  }
+  return null;
+}
+
+function replaceName(day, sectorKey, from, to, tradeId, note){
+  if(!day || !day.sectors[sectorKey]) return false;
+  const cell = day.sectors[sectorKey];
+  const idx = cell.names.indexOf(from);
+  if(idx === -1) return false;
+  cell.names[idx] = to;
+  cell.tradeIds.push({id:tradeId, note});
+  return true;
+}
+
+function applyTrades(base){
+  const schedule = deepClone(base);
+  for(const t of TRADES){
+    const cededDay = findDay(schedule, t.ceded);
+    replaceName(
+      cededDay, t.sector, t.requester, t.substitute, t.id,
+      `${t.requester} → ${t.substitute}`
+    );
+
+    const compDay = findDay(schedule, t.compensation);
+    if(compDay){
+      replaceName(
+        compDay, t.sector, t.substitute, t.requester, t.id,
+        `recomposição: ${t.substitute} → ${t.requester}`
+      );
+    }
+  }
+  return schedule;
+}
+
+const SCHEDULE = applyTrades(BASE_SCHEDULE);
+
+function hasCarlosInSector(sector){
+  return sector.names.includes(TARGET);
+}
+
+function hasCarlos(day){
+  return Object.values(day.sectors).some(hasCarlosInSector);
+}
+
+function brDate(iso){
+  const [y,m,d] = iso.split("-");
+  return `${d}/${m}`;
+}
+
+function parseDate(iso){
+  const [y,m,d] = iso.split("-").map(Number);
+  return new Date(y,m-1,d);
+}
+
+function sectorHours(key){
+  return key === "eixoNoite" ? 6 : 12;
+}
+
+function myAssignments(){
+  const out = [];
+  for(const week of SCHEDULE){
+    for(const day of week.days){
+      for(const [key, sector] of Object.entries(day.sectors)){
+        if(sector.names.includes(TARGET)){
+          out.push({week:week.week, date:day.date, sectorKey:key, sector});
+        }
+      }
+    }
+  }
+  return out;
+}
+
+function renderSummary(){
+  const list = myAssignments();
+  const total = list.reduce((s,x)=>s+sectorHours(x.sectorKey),0);
+  const nights = list.filter(x=>x.sectorKey==="eixoNoite").length;
+  const uti = list.filter(x=>x.sectorKey==="utiHul").length;
+  const dayHours = list.filter(x=>x.sectorKey!=="eixoNoite").reduce((s,x)=>s+12,0);
+  const carlosDays = new Set(list.map(x=>x.date)).size;
+  const doubleDays = [...new Set(list.map(x=>x.date))].filter(d=>list.filter(x=>x.date===d).length>1).length;
+
+  const items = [
+    ["Carga Carlos", `${total}h`],
+    ["Diurnas", `${dayHours}h`],
+    ["Noturnos", `${nights}`],
+    ["UTI HUL", `${uti}`],
+    ["Dias escalados", `${carlosDays}`],
+    ["Dias com 2 turnos", `${doubleDays}`],
+  ];
+  document.getElementById("summary").innerHTML = items.map(([k,v]) =>
+    `<div class="stat"><small>${k}</small><strong>${v}</strong></div>`
+  ).join("");
+}
+
+function renderTabs(){
+  const tabs = document.getElementById("weekTabs");
+  tabs.innerHTML =
+    `<button class="week-tab ${state.week==="all"?"active":""}" data-week="all">Todas</button>` +
+    SCHEDULE.map(w =>
+      `<button class="week-tab ${String(state.week)===String(w.week)?"active":""}" data-week="${w.week}">Semana ${w.week}</button>`
+    ).join("");
+
+  tabs.querySelectorAll(".week-tab").forEach(btn=>{
+    btn.addEventListener("click", ()=>{
+      state.week = btn.dataset.week;
+      render();
+    });
+  });
+}
+
+function renderName(name){
+  return `<span class="name ${name===TARGET?"carlos":""}">${name}</span>`;
+}
+
+function renderSector(key, sector){
+  const mine = hasCarlosInSector(sector);
+  const trades = sector.tradeIds || [];
+  return `
+    <div class="sector ${mine?"carlos-sector":""}">
+      <div class="sector-head">
+        <span class="sector-title">${sector.label}</span>
+        <span class="sector-time">${sector.time}</span>
+      </div>
+      <div class="names">${sector.names.map(renderName).join("")}</div>
+      ${trades.length ? `<div class="trade-mark">troca ${trades.map(t=>"#"+t.id).join(", ")}</div>` : ""}
+    </div>`;
+}
+
+function renderDay(day){
+  const mine = hasCarlos(day);
+  if(state.onlyCarlos && !mine) return "";
+  return `
+    <article class="day-card ${mine?"carlos-day":""}" data-date="${day.date}">
+      <div class="day-top">
+        <div class="day-title">
+          <strong>${day.weekday}</strong>
+          <span>${brDate(day.date)}</span>
+        </div>
+        ${mine?`<span class="me-badge">Carlos</span>`:""}
+      </div>
+      <div class="sectors-grid">
+        ${Object.entries(day.sectors).map(([key,sector])=>renderSector(key,sector)).join("")}
+      </div>
+    </article>`;
+}
+
+function render(){
+  renderTabs();
+  renderSummary();
+
+  const root = document.getElementById("scheduleRoot");
+  const weeks = SCHEDULE.filter(w => state.week==="all" || String(w.week)===String(state.week));
+
+  root.innerHTML = weeks.map(w => {
+    const daysHtml = w.days.map(renderDay).join("");
+    if(!daysHtml.trim()) return "";
+    const myCount = w.days.filter(hasCarlos).length;
+    return `
+      <section class="week-card" data-week="${w.week}">
+        <div class="week-head">
+          <h2>Semana ${w.week} • ${w.period}</h2>
+          <small>${myCount} dia${myCount!==1?"s":""} com Carlos</small>
+        </div>
+        ${daysHtml}
+      </section>`;
+  }).join("");
+
+  document.getElementById("btnAll").classList.toggle("active", !state.onlyCarlos);
+  document.getElementById("btnCarlos").classList.toggle("active", state.onlyCarlos);
+}
+
+function renderTrades(){
+  const sectorName = {
+    eixoDia:"Eixo Diurno", eixoNoite:"Eixo Noturno", porta:"Porta HUL",
+    utiHul:"UTI HUL", utiConceicao:"UTI Conceição"
+  };
+  document.getElementById("tradePanel").innerHTML = `
+    <table class="trade-table">
+      <thead><tr>
+        <th>ID</th><th>Solicitante</th><th>Substituto</th><th>Setor</th>
+        <th>Plantão cedido</th><th>CH</th><th>Recomposição</th><th>Status</th>
+      </tr></thead>
+      <tbody>
+        ${TRADES.map(t=>`
+          <tr>
+            <td>${t.id}</td><td>${t.requester}</td><td>${t.substitute}</td>
+            <td>${sectorName[t.sector]}</td><td>${brDate(t.ceded)}</td>
+            <td>${t.hours}</td><td>${brDate(t.compensation)}</td>
+            <td class="trade-status">${findDay(SCHEDULE,t.compensation)?"aplicada":"recomposição fora do período"}</td>
+          </tr>`).join("")}
+      </tbody>
+    </table>`;
+}
+
+function currentWeek(){
+  const now = new Date();
+  const found = SCHEDULE.find(w => {
+    const first = parseDate(w.days[0].date);
+    const last = parseDate(w.days[w.days.length-1].date);
+    last.setHours(23,59,59,999);
+    return now >= first && now <= last;
+  });
+  return found?.week ?? "all";
+}
+
+document.getElementById("btnAll").addEventListener("click", ()=>{
+  state.onlyCarlos = false; render();
+});
+document.getElementById("btnCarlos").addEventListener("click", ()=>{
+  state.onlyCarlos = true; render();
+});
+document.getElementById("btnPrint").addEventListener("click", ()=>window.print());
+document.getElementById("btnCurrent").addEventListener("click", ()=>{
+  state.week = currentWeek();
+  render();
+  window.scrollTo({top:document.querySelector(".toolbar").offsetTop-10,behavior:"smooth"});
+});
+document.getElementById("tradeToggle").addEventListener("click", ()=>{
+  const p = document.getElementById("tradePanel");
+  p.classList.toggle("hidden");
+  document.getElementById("tradeArrow").textContent = p.classList.contains("hidden") ? "＋" : "−";
+});
+
+renderTrades();
+render();
+
+if("serviceWorker" in navigator && location.protocol.startsWith("http")){
+  navigator.serviceWorker.register("./sw.js").catch(()=>{});
+}
+
+</script>
+</body>
+</html>
