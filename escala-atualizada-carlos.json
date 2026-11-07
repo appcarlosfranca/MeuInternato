@@ -1,0 +1,4572 @@
+{
+  "version": 1,
+  "scheduleVersion": "pdf-2026-11-07-carlos-v2",
+  "events": [
+    {
+      "id": "official-2026-11-09-Digestiva",
+      "date": "2026-11-09",
+      "sector": "Digestiva",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "ADLEY"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 13. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 13
+    },
+    {
+      "id": "official-2026-11-09-Enfermaria",
+      "date": "2026-11-09",
+      "sector": "Enfermaria",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "CAROLINA",
+        "SHAYANE",
+        "VICTOR H.",
+        "FABRÍCIO",
+        "LEONARDO"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 13. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 13
+    },
+    {
+      "id": "official-2026-11-09-Oncologia",
+      "date": "2026-11-09",
+      "sector": "Oncologia",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "JEAN"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 13. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 13
+    },
+    {
+      "id": "official-2026-11-09-Ortopedia",
+      "date": "2026-11-09",
+      "sector": "Ortopedia",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "BELMIRO",
+        "CLAUDIELMA"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 13. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 13
+    },
+    {
+      "id": "official-2026-11-09-Sutura-diurno",
+      "date": "2026-11-09",
+      "sector": "Sutura diurno",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "DIEGO",
+        "CARLOS"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 13. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 13
+    },
+    {
+      "id": "official-2026-11-09-Vascular",
+      "date": "2026-11-09",
+      "sector": "Vascular",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "MARCOS A."
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 13. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 13
+    },
+    {
+      "id": "official-2026-11-09-Sutura-noturno",
+      "date": "2026-11-09",
+      "sector": "Sutura noturno",
+      "start": "19:00",
+      "end": "23:00",
+      "names": [
+        "MARIANA C."
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 13. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 13
+    },
+    {
+      "id": "official-2026-11-10-Endoscopia",
+      "date": "2026-11-10",
+      "sector": "Endoscopia",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "MARCOS A."
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 13. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 13
+    },
+    {
+      "id": "official-2026-11-10-Enfermaria",
+      "date": "2026-11-10",
+      "sector": "Enfermaria",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "CAROLINA",
+        "SHAYANE",
+        "VICTOR H.",
+        "LEONARDO",
+        "FABRÍCIO"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 13. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 13
+    },
+    {
+      "id": "official-2026-11-10-Oncologia",
+      "date": "2026-11-10",
+      "sector": "Oncologia",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "ADLEY"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 13. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 13
+    },
+    {
+      "id": "official-2026-11-10-Ortopedia",
+      "date": "2026-11-10",
+      "sector": "Ortopedia",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "BELMIRO",
+        "CLAUDIELMA"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 13. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 13
+    },
+    {
+      "id": "official-2026-11-10-Sutura-diurno",
+      "date": "2026-11-10",
+      "sector": "Sutura diurno",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "ANA CAROLINA",
+        "M. EDUARDA"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 13. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 13
+    },
+    {
+      "id": "official-2026-11-10-Sutura-noturno",
+      "date": "2026-11-10",
+      "sector": "Sutura noturno",
+      "start": "19:00",
+      "end": "23:00",
+      "names": [
+        "DIEGO",
+        "CARLOS"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 13. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 13
+    },
+    {
+      "id": "official-2026-11-11-Enfermaria",
+      "date": "2026-11-11",
+      "sector": "Enfermaria",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "CAROLINA",
+        "SHAYANE",
+        "VICTOR H.",
+        "LEONARDO",
+        "FABRÍCIO"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 13. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 13
+    },
+    {
+      "id": "official-2026-11-11-Oncologia",
+      "date": "2026-11-11",
+      "sector": "Oncologia",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "ADLEY"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 13. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 13
+    },
+    {
+      "id": "official-2026-11-11-Ortopedia",
+      "date": "2026-11-11",
+      "sector": "Ortopedia",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "BELMIRO",
+        "CLAUDIELMA"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 13. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 13
+    },
+    {
+      "id": "official-2026-11-11-Plástica",
+      "date": "2026-11-11",
+      "sector": "Plástica",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "JEAN"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 14. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 14
+    },
+    {
+      "id": "official-2026-11-11-Sutura-diurno",
+      "date": "2026-11-11",
+      "sector": "Sutura diurno",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "DIEGO",
+        "CARLOS"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 13. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 13
+    },
+    {
+      "id": "official-2026-11-11-Vascular",
+      "date": "2026-11-11",
+      "sector": "Vascular",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "MARCOS A.",
+        "MARIANA C."
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 13. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 13
+    },
+    {
+      "id": "official-2026-11-11-Sutura-noturno",
+      "date": "2026-11-11",
+      "sector": "Sutura noturno",
+      "start": "19:00",
+      "end": "23:00",
+      "names": [
+        "ANA CAROLINA",
+        "M. EDUARDA"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 13. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 13
+    },
+    {
+      "id": "official-2026-11-12-Digestiva",
+      "date": "2026-11-12",
+      "sector": "Digestiva",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "MARCOS A.",
+        "JEAN"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 13. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 13
+    },
+    {
+      "id": "official-2026-11-12-Enfermaria",
+      "date": "2026-11-12",
+      "sector": "Enfermaria",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "CAROLINA",
+        "SHAYANE",
+        "VICTOR H.",
+        "LEONARDO",
+        "FABRÍCIO"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 13. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 13
+    },
+    {
+      "id": "official-2026-11-12-Ortopedia",
+      "date": "2026-11-12",
+      "sector": "Ortopedia",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "BELMIRO",
+        "CLAUDIELMA"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 13. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 13
+    },
+    {
+      "id": "official-2026-11-12-Sutura-diurno",
+      "date": "2026-11-12",
+      "sector": "Sutura diurno",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "ANA CAROLINA",
+        "M. EDUARDA"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 13. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 13
+    },
+    {
+      "id": "official-2026-11-12-Urologia",
+      "date": "2026-11-12",
+      "sector": "Urologia",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "ADLEY"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 14. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 14
+    },
+    {
+      "id": "official-2026-11-12-Urologia-Marcos",
+      "date": "2026-11-12",
+      "sector": "Urologia Marcos",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "MARIANA C."
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 14. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 14
+    },
+    {
+      "id": "official-2026-11-13-Enfermaria",
+      "date": "2026-11-13",
+      "sector": "Enfermaria",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "CAROLINA",
+        "SHAYANE",
+        "VICTOR H.",
+        "LEONARDO",
+        "FABRÍCIO"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 13. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 13
+    },
+    {
+      "id": "official-2026-11-13-Oncologia",
+      "date": "2026-11-13",
+      "sector": "Oncologia",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "MARCOS A."
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 13. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 13
+    },
+    {
+      "id": "official-2026-11-13-Ortopedia",
+      "date": "2026-11-13",
+      "sector": "Ortopedia",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "BELMIRO",
+        "CLAUDIELMA"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 13. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 13
+    },
+    {
+      "id": "official-2026-11-13-Sutura-diurno",
+      "date": "2026-11-13",
+      "sector": "Sutura diurno",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "CARLOS",
+        "DIEGO"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 13. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 13
+    },
+    {
+      "id": "official-2026-11-13-Vascular",
+      "date": "2026-11-13",
+      "sector": "Vascular",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "MARIANA C."
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 13. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 13
+    },
+    {
+      "id": "official-2026-11-13-Sutura-noturno",
+      "date": "2026-11-13",
+      "sector": "Sutura noturno",
+      "start": "19:00",
+      "end": "23:00",
+      "names": [
+        "MARCOS A."
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 13. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 13
+    },
+    {
+      "id": "official-2026-11-14-Sutura-diurno",
+      "date": "2026-11-14",
+      "sector": "Sutura diurno",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "ANA CAROLINA",
+        "M. EDUARDA"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 13. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 13
+    },
+    {
+      "id": "official-2026-11-14-Vascular",
+      "date": "2026-11-14",
+      "sector": "Vascular",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "MARIANA C."
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 13. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 13
+    },
+    {
+      "id": "official-2026-11-15-Enfermaria",
+      "date": "2026-11-15",
+      "sector": "Enfermaria",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "BELMIRO",
+        "CLAUDIELMA"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 13. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 13
+    },
+    {
+      "id": "official-2026-11-15-Sutura-diurno",
+      "date": "2026-11-15",
+      "sector": "Sutura diurno",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "BELMIRO",
+        "CLAUDIELMA"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 13. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 13
+    },
+    {
+      "id": "official-2026-11-16-Digestiva",
+      "date": "2026-11-16",
+      "sector": "Digestiva",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "JEAN"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 15. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 15
+    },
+    {
+      "id": "official-2026-11-16-Enfermaria",
+      "date": "2026-11-16",
+      "sector": "Enfermaria",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "CAROLINA",
+        "SHAYANE",
+        "VICTOR H.",
+        "LEONARDO",
+        "FABRÍCIO"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 14. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 14
+    },
+    {
+      "id": "official-2026-11-16-Oncologia",
+      "date": "2026-11-16",
+      "sector": "Oncologia",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "ADLEY"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 15. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 15
+    },
+    {
+      "id": "official-2026-11-16-Ortopedia",
+      "date": "2026-11-16",
+      "sector": "Ortopedia",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "BELMIRO",
+        "CLAUDIELMA"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 14. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 14
+    },
+    {
+      "id": "official-2026-11-16-Sutura-diurno",
+      "date": "2026-11-16",
+      "sector": "Sutura diurno",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "DIEGO",
+        "CARLOS"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 14. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 14
+    },
+    {
+      "id": "official-2026-11-16-Vascular",
+      "date": "2026-11-16",
+      "sector": "Vascular",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "MARIANA C."
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 15. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 15
+    },
+    {
+      "id": "official-2026-11-16-Sutura-noturno",
+      "date": "2026-11-16",
+      "sector": "Sutura noturno",
+      "start": "19:00",
+      "end": "23:00",
+      "names": [
+        "MARCOS A."
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 14. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 14
+    },
+    {
+      "id": "official-2026-11-17-Endoscopia",
+      "date": "2026-11-17",
+      "sector": "Endoscopia",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "MARIANA C."
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 15. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 15
+    },
+    {
+      "id": "official-2026-11-17-Enfermaria",
+      "date": "2026-11-17",
+      "sector": "Enfermaria",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "CAROLINA",
+        "SHAYANE",
+        "VICTOR H.",
+        "LEONARDO",
+        "FABRÍCIO"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 14. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 14
+    },
+    {
+      "id": "official-2026-11-17-Oncologia",
+      "date": "2026-11-17",
+      "sector": "Oncologia",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "JEAN"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 15. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 15
+    },
+    {
+      "id": "official-2026-11-17-Ortopedia",
+      "date": "2026-11-17",
+      "sector": "Ortopedia",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "BELMIRO",
+        "CLAUDIELMA"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 14. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 14
+    },
+    {
+      "id": "official-2026-11-17-Sutura-diurno",
+      "date": "2026-11-17",
+      "sector": "Sutura diurno",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "ANA CAROLINA",
+        "M. EDUARDA"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 14. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 14
+    },
+    {
+      "id": "official-2026-11-17-Sutura-noturno",
+      "date": "2026-11-17",
+      "sector": "Sutura noturno",
+      "start": "19:00",
+      "end": "23:00",
+      "names": [
+        "DIEGO",
+        "CARLOS"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 14. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 14
+    },
+    {
+      "id": "official-2026-11-18-Enfermaria",
+      "date": "2026-11-18",
+      "sector": "Enfermaria",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "CAROLINA",
+        "SHAYANE",
+        "VICTOR H.",
+        "FABRÍCIO"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 14. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 14
+    },
+    {
+      "id": "official-2026-11-18-Oncologia",
+      "date": "2026-11-18",
+      "sector": "Oncologia",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "JEAN"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 15. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 15
+    },
+    {
+      "id": "official-2026-11-18-Ortopedia",
+      "date": "2026-11-18",
+      "sector": "Ortopedia",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "BELMIRO",
+        "CLAUDIELMA"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 14. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 14
+    },
+    {
+      "id": "official-2026-11-18-Plástica",
+      "date": "2026-11-18",
+      "sector": "Plástica",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "ADLEY"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 15. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 15
+    },
+    {
+      "id": "official-2026-11-18-Sutura-diurno",
+      "date": "2026-11-18",
+      "sector": "Sutura diurno",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "DIEGO",
+        "CARLOS"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 14. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 14
+    },
+    {
+      "id": "official-2026-11-18-Vascular",
+      "date": "2026-11-18",
+      "sector": "Vascular",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "MARCOS A.",
+        "MARIANA C."
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 15. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 15
+    },
+    {
+      "id": "official-2026-11-18-Sutura-noturno",
+      "date": "2026-11-18",
+      "sector": "Sutura noturno",
+      "start": "19:00",
+      "end": "23:00",
+      "names": [
+        "ANA CAROLINA",
+        "M. EDUARDA"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 14. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 14
+    },
+    {
+      "id": "official-2026-11-19-Digestiva",
+      "date": "2026-11-19",
+      "sector": "Digestiva",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "MARIANA C.",
+        "ADLEY"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 15. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 15
+    },
+    {
+      "id": "official-2026-11-19-Enfermaria",
+      "date": "2026-11-19",
+      "sector": "Enfermaria",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "CAROLINA",
+        "SHAYANE",
+        "VICTOR H.",
+        "LEONARDO",
+        "FABRÍCIO"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 14. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 14
+    },
+    {
+      "id": "official-2026-11-19-Ortopedia",
+      "date": "2026-11-19",
+      "sector": "Ortopedia",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "BELMIRO",
+        "CLAUDIELMA"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 14. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 14
+    },
+    {
+      "id": "official-2026-11-19-Sutura-diurno",
+      "date": "2026-11-19",
+      "sector": "Sutura diurno",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "ANA CAROLINA",
+        "M. EDUARDA"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 14. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 14
+    },
+    {
+      "id": "official-2026-11-19-Urologia",
+      "date": "2026-11-19",
+      "sector": "Urologia",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "JEAN"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 15. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 15
+    },
+    {
+      "id": "official-2026-11-19-Urologia-Marcos",
+      "date": "2026-11-19",
+      "sector": "Urologia Marcos",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "MARCOS A."
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 15. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 15
+    },
+    {
+      "id": "official-2026-11-20-Enfermaria",
+      "date": "2026-11-20",
+      "sector": "Enfermaria",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "CAROLINA",
+        "SHAYANE",
+        "VICTOR H.",
+        "LEONARDO",
+        "FABRÍCIO"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 14. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 14
+    },
+    {
+      "id": "official-2026-11-20-Oncologia",
+      "date": "2026-11-20",
+      "sector": "Oncologia",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "MARIANA C."
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 15. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 15
+    },
+    {
+      "id": "official-2026-11-20-Ortopedia",
+      "date": "2026-11-20",
+      "sector": "Ortopedia",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "BELMIRO",
+        "CLAUDIELMA"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 14. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 14
+    },
+    {
+      "id": "official-2026-11-20-Sutura-diurno",
+      "date": "2026-11-20",
+      "sector": "Sutura diurno",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "DIEGO",
+        "CARLOS"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 14. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 14
+    },
+    {
+      "id": "official-2026-11-20-Vascular",
+      "date": "2026-11-20",
+      "sector": "Vascular",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "MARCOS A."
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 15. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 15
+    },
+    {
+      "id": "official-2026-11-20-Sutura-noturno",
+      "date": "2026-11-20",
+      "sector": "Sutura noturno",
+      "start": "19:00",
+      "end": "23:00",
+      "names": [
+        "MARIANA C."
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 14. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 14
+    },
+    {
+      "id": "official-2026-11-21-Sutura-diurno",
+      "date": "2026-11-21",
+      "sector": "Sutura diurno",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "BELMIRO",
+        "CLAUDIELMA"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 14. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 14
+    },
+    {
+      "id": "official-2026-11-21-Vascular",
+      "date": "2026-11-21",
+      "sector": "Vascular",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "SHAYANE"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 15. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 15
+    },
+    {
+      "id": "official-2026-11-22-Enfermaria",
+      "date": "2026-11-22",
+      "sector": "Enfermaria",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "MARCOS A.",
+        "MARIANA C."
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 14. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 14
+    },
+    {
+      "id": "official-2026-11-22-Sutura-diurno",
+      "date": "2026-11-22",
+      "sector": "Sutura diurno",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "MARCOS A.",
+        "MARIANA C."
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 14. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 14
+    },
+    {
+      "id": "official-2026-11-23-Digestiva",
+      "date": "2026-11-23",
+      "sector": "Digestiva",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "ADLEY"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 16. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 16
+    },
+    {
+      "id": "official-2026-11-23-Enfermaria",
+      "date": "2026-11-23",
+      "sector": "Enfermaria",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "ANA CAROLINA",
+        "M. EDUARDA",
+        "VICTOR H.",
+        "LEONARDO",
+        "FABRÍCIO"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 16. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 16
+    },
+    {
+      "id": "official-2026-11-23-Oncologia",
+      "date": "2026-11-23",
+      "sector": "Oncologia",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "JEAN"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 16. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 16
+    },
+    {
+      "id": "official-2026-11-23-Ortopedia",
+      "date": "2026-11-23",
+      "sector": "Ortopedia",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "MARCOS A.",
+        "MARIANA C."
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 16. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 16
+    },
+    {
+      "id": "official-2026-11-23-Sutura-diurno",
+      "date": "2026-11-23",
+      "sector": "Sutura diurno",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "DIEGO",
+        "CARLOS"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 15. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 15
+    },
+    {
+      "id": "official-2026-11-23-Vascular",
+      "date": "2026-11-23",
+      "sector": "Vascular",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "CAROLINA"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 16. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 16
+    },
+    {
+      "id": "official-2026-11-23-Sutura-noturno",
+      "date": "2026-11-23",
+      "sector": "Sutura noturno",
+      "start": "19:00",
+      "end": "23:00",
+      "names": [
+        "SHAYANE"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 15. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 15
+    },
+    {
+      "id": "official-2026-11-24-Endoscopia",
+      "date": "2026-11-24",
+      "sector": "Endoscopia",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "CAROLINA"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 16. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 16
+    },
+    {
+      "id": "official-2026-11-24-Enfermaria",
+      "date": "2026-11-24",
+      "sector": "Enfermaria",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "ANA CAROLINA",
+        "M. EDUARDA",
+        "VICTOR H.",
+        "LEONARDO",
+        "FABRÍCIO"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 16. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 16
+    },
+    {
+      "id": "official-2026-11-24-Oncologia",
+      "date": "2026-11-24",
+      "sector": "Oncologia",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "JEAN"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 16. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 16
+    },
+    {
+      "id": "official-2026-11-24-Ortopedia",
+      "date": "2026-11-24",
+      "sector": "Ortopedia",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "MARCOS A.",
+        "MARIANA C."
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 16. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 16
+    },
+    {
+      "id": "official-2026-11-24-Sutura-diurno",
+      "date": "2026-11-24",
+      "sector": "Sutura diurno",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "BELMIRO",
+        "CLAUDIELMA"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 15. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 15
+    },
+    {
+      "id": "official-2026-11-24-Sutura-noturno",
+      "date": "2026-11-24",
+      "sector": "Sutura noturno",
+      "start": "19:00",
+      "end": "23:00",
+      "names": [
+        "DIEGO",
+        "CARLOS"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 15. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 15
+    },
+    {
+      "id": "official-2026-11-25-Enfermaria",
+      "date": "2026-11-25",
+      "sector": "Enfermaria",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "ANA CAROLINA",
+        "M. EDUARDA",
+        "DIEGO",
+        "CARLOS"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 16. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 16
+    },
+    {
+      "id": "official-2026-11-25-Oncologia",
+      "date": "2026-11-25",
+      "sector": "Oncologia",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "LEONARDO",
+        "FABRÍCIO"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 16. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 16
+    },
+    {
+      "id": "official-2026-11-25-Ortopedia",
+      "date": "2026-11-25",
+      "sector": "Ortopedia",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "MARCOS A.",
+        "MARIANA C."
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 16. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 16
+    },
+    {
+      "id": "official-2026-11-25-Plástica",
+      "date": "2026-11-25",
+      "sector": "Plástica",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "VICTOR H."
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 16. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 16
+    },
+    {
+      "id": "official-2026-11-25-Sutura-diurno",
+      "date": "2026-11-25",
+      "sector": "Sutura diurno",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "JEAN",
+        "ADLEY"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 15. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 15
+    },
+    {
+      "id": "official-2026-11-25-Vascular",
+      "date": "2026-11-25",
+      "sector": "Vascular",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "CAROLINA",
+        "SHAYANE"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 16. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 16
+    },
+    {
+      "id": "official-2026-11-25-Sutura-noturno",
+      "date": "2026-11-25",
+      "sector": "Sutura noturno",
+      "start": "19:00",
+      "end": "23:00",
+      "names": [
+        "BELMIRO",
+        "CLAUDIELMA"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 15. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 15
+    },
+    {
+      "id": "official-2026-11-26-Digestiva",
+      "date": "2026-11-26",
+      "sector": "Digestiva",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "CAROLINA",
+        "FABRÍCIO"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 16. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 16
+    },
+    {
+      "id": "official-2026-11-26-Enfermaria",
+      "date": "2026-11-26",
+      "sector": "Enfermaria",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "ANA CAROLINA",
+        "M. EDUARDA",
+        "DIEGO",
+        "CARLOS"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 16. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 16
+    },
+    {
+      "id": "official-2026-11-26-Oncologia",
+      "date": "2026-11-26",
+      "sector": "Oncologia",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "LEONARDO"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 16. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 16
+    },
+    {
+      "id": "official-2026-11-26-Ortopedia",
+      "date": "2026-11-26",
+      "sector": "Ortopedia",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "MARCOS A.",
+        "MARIANA C."
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 16. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 16
+    },
+    {
+      "id": "official-2026-11-26-Sutura-diurno",
+      "date": "2026-11-26",
+      "sector": "Sutura diurno",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "BELMIRO",
+        "CLAUDIELMA"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 15. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 15
+    },
+    {
+      "id": "official-2026-11-26-Urologia",
+      "date": "2026-11-26",
+      "sector": "Urologia",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "VICTOR H."
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 16. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 16
+    },
+    {
+      "id": "official-2026-11-26-Urologia-Marcos",
+      "date": "2026-11-26",
+      "sector": "Urologia Marcos",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "SHAYANE"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 16. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 16
+    },
+    {
+      "id": "official-2026-11-27-Enfermaria",
+      "date": "2026-11-27",
+      "sector": "Enfermaria",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "ANA CAROLINA",
+        "M. EDUARDA",
+        "DIEGO",
+        "CARLOS"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 16. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 16
+    },
+    {
+      "id": "official-2026-11-27-Oncologia",
+      "date": "2026-11-27",
+      "sector": "Oncologia",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "CAROLINA"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 16. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 16
+    },
+    {
+      "id": "official-2026-11-27-Ortopedia",
+      "date": "2026-11-27",
+      "sector": "Ortopedia",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "MARCOS A.",
+        "MARIANA C."
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 16. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 16
+    },
+    {
+      "id": "official-2026-11-27-Sutura-diurno",
+      "date": "2026-11-27",
+      "sector": "Sutura diurno",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "JEAN",
+        "ADLEY"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 15. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 15
+    },
+    {
+      "id": "official-2026-11-27-Vascular",
+      "date": "2026-11-27",
+      "sector": "Vascular",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "SHAYANE"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 16. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 16
+    },
+    {
+      "id": "official-2026-11-27-Sutura-noturno",
+      "date": "2026-11-27",
+      "sector": "Sutura noturno",
+      "start": "19:00",
+      "end": "23:00",
+      "names": [
+        "CAROLINA"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 15. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 15
+    },
+    {
+      "id": "official-2026-11-28-Sutura-diurno",
+      "date": "2026-11-28",
+      "sector": "Sutura diurno",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "BELMIRO",
+        "CLAUDIELMA"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 15. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 15
+    },
+    {
+      "id": "official-2026-11-28-Vascular",
+      "date": "2026-11-28",
+      "sector": "Vascular",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "CAROLINA"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 16. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 16
+    },
+    {
+      "id": "official-2026-11-29-Enfermaria",
+      "date": "2026-11-29",
+      "sector": "Enfermaria",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "MARCOS A.",
+        "MARIANA C."
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 16. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 16
+    },
+    {
+      "id": "official-2026-11-29-Sutura-diurno",
+      "date": "2026-11-29",
+      "sector": "Sutura diurno",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "MARCOS A.",
+        "MARIANA C."
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 15. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 15
+    },
+    {
+      "id": "official-2026-11-30-Digestiva",
+      "date": "2026-11-30",
+      "sector": "Digestiva",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "LEONARDO",
+        "FABRÍCIO"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 17. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 17
+    },
+    {
+      "id": "official-2026-11-30-Enfermaria",
+      "date": "2026-11-30",
+      "sector": "Enfermaria",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "ANA CAROLINA",
+        "M. EDUARDA",
+        "DIEGO",
+        "CARLOS"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 17. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 17
+    },
+    {
+      "id": "official-2026-11-30-Oncologia",
+      "date": "2026-11-30",
+      "sector": "Oncologia",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "VICTOR H."
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 17. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 17
+    },
+    {
+      "id": "official-2026-11-30-Ortopedia",
+      "date": "2026-11-30",
+      "sector": "Ortopedia",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "MARCOS A.",
+        "MARIANA C."
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 17. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 17
+    },
+    {
+      "id": "official-2026-11-30-Sutura-diurno",
+      "date": "2026-11-30",
+      "sector": "Sutura diurno",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "JEAN",
+        "ADLEY"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 17. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 17
+    },
+    {
+      "id": "official-2026-11-30-Vascular",
+      "date": "2026-11-30",
+      "sector": "Vascular",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "SHAYANE"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 17. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 17
+    },
+    {
+      "id": "official-2026-11-30-Sutura-noturno",
+      "date": "2026-11-30",
+      "sector": "Sutura noturno",
+      "start": "19:00",
+      "end": "23:00",
+      "names": [
+        "CAROLINA"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 17. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 17
+    },
+    {
+      "id": "official-2026-12-01-Endoscopia",
+      "date": "2026-12-01",
+      "sector": "Endoscopia",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "SHAYANE"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 17. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 17
+    },
+    {
+      "id": "official-2026-12-01-Enfermaria",
+      "date": "2026-12-01",
+      "sector": "Enfermaria",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "ANA CAROLINA",
+        "M. EDUARDA",
+        "DIEGO",
+        "CARLOS"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 17. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 17
+    },
+    {
+      "id": "official-2026-12-01-Oncologia",
+      "date": "2026-12-01",
+      "sector": "Oncologia",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "FABRÍCIO"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 17. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 17
+    },
+    {
+      "id": "official-2026-12-01-Ortopedia",
+      "date": "2026-12-01",
+      "sector": "Ortopedia",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "MARCOS A.",
+        "MARIANA C."
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 17. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 17
+    },
+    {
+      "id": "official-2026-12-01-Sutura-diurno",
+      "date": "2026-12-01",
+      "sector": "Sutura diurno",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "BELMIRO",
+        "CLAUDIELMA"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 17. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 17
+    },
+    {
+      "id": "official-2026-12-01-Sutura-noturno",
+      "date": "2026-12-01",
+      "sector": "Sutura noturno",
+      "start": "19:00",
+      "end": "23:00",
+      "names": [
+        "JEAN",
+        "ADLEY"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 17. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 17
+    },
+    {
+      "id": "official-2026-12-02-Enfermaria",
+      "date": "2026-12-02",
+      "sector": "Enfermaria",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "ANA CAROLINA",
+        "M. EDUARDA",
+        "DIEGO",
+        "CARLOS"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 17. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 17
+    },
+    {
+      "id": "official-2026-12-02-Oncologia",
+      "date": "2026-12-02",
+      "sector": "Oncologia",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "LEONARDO",
+        "VICTOR H."
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 17. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 17
+    },
+    {
+      "id": "official-2026-12-02-Ortopedia",
+      "date": "2026-12-02",
+      "sector": "Ortopedia",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "MARCOS A.",
+        "MARIANA C."
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 17. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 17
+    },
+    {
+      "id": "official-2026-12-02-Plástica",
+      "date": "2026-12-02",
+      "sector": "Plástica",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "FABRÍCIO"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 18. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 18
+    },
+    {
+      "id": "official-2026-12-02-Sutura-diurno",
+      "date": "2026-12-02",
+      "sector": "Sutura diurno",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "JEAN",
+        "ADLEY"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 17. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 17
+    },
+    {
+      "id": "official-2026-12-02-Vascular",
+      "date": "2026-12-02",
+      "sector": "Vascular",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "CAROLINA",
+        "SHAYANE"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 17. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 17
+    },
+    {
+      "id": "official-2026-12-02-Sutura-noturno",
+      "date": "2026-12-02",
+      "sector": "Sutura noturno",
+      "start": "19:00",
+      "end": "23:00",
+      "names": [
+        "BELMIRO",
+        "CLAUDIELMA"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 17. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 17
+    },
+    {
+      "id": "official-2026-12-03-Digestiva",
+      "date": "2026-12-03",
+      "sector": "Digestiva",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "ANA CAROLINA",
+        "LEONARDO"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 17. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 17
+    },
+    {
+      "id": "official-2026-12-03-Enfermaria",
+      "date": "2026-12-03",
+      "sector": "Enfermaria",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "BELMIRO",
+        "CLAUDIELMA",
+        "DIEGO",
+        "CARLOS"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 17. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 17
+    },
+    {
+      "id": "official-2026-12-03-Oncologia",
+      "date": "2026-12-03",
+      "sector": "Oncologia",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "VICTOR H."
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 17. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 17
+    },
+    {
+      "id": "official-2026-12-03-Ortopedia",
+      "date": "2026-12-03",
+      "sector": "Ortopedia",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "CAROLINA",
+        "SHAYANE"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 17. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 17
+    },
+    {
+      "id": "official-2026-12-03-Sutura-diurno",
+      "date": "2026-12-03",
+      "sector": "Sutura diurno",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "MARCOS A.",
+        "MARIANA C."
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 17. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 17
+    },
+    {
+      "id": "official-2026-12-03-Urologia",
+      "date": "2026-12-03",
+      "sector": "Urologia",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "FABRÍCIO"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 18. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 18
+    },
+    {
+      "id": "official-2026-12-03-Urologia-Marcos",
+      "date": "2026-12-03",
+      "sector": "Urologia Marcos",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "CAROLINA",
+        "M. EDUARDA"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 17. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 17
+    },
+    {
+      "id": "official-2026-12-04-Enfermaria",
+      "date": "2026-12-04",
+      "sector": "Enfermaria",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "BELMIRO",
+        "CLAUDIELMA",
+        "DIEGO",
+        "CARLOS"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 17. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 17
+    },
+    {
+      "id": "official-2026-12-04-Oncologia",
+      "date": "2026-12-04",
+      "sector": "Oncologia",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "ANA CAROLINA"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 17. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 17
+    },
+    {
+      "id": "official-2026-12-04-Ortopedia",
+      "date": "2026-12-04",
+      "sector": "Ortopedia",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "CAROLINA",
+        "SHAYANE"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 17. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 17
+    },
+    {
+      "id": "official-2026-12-04-Sutura-diurno",
+      "date": "2026-12-04",
+      "sector": "Sutura diurno",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "JEAN",
+        "ADLEY"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 17. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 17
+    },
+    {
+      "id": "official-2026-12-04-Vascular",
+      "date": "2026-12-04",
+      "sector": "Vascular",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "M. EDUARDA"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 17. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 17
+    },
+    {
+      "id": "official-2026-12-04-Sutura-noturno",
+      "date": "2026-12-04",
+      "sector": "Sutura noturno",
+      "start": "19:00",
+      "end": "23:00",
+      "names": [
+        "ANA CAROLINA"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 17. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 17
+    },
+    {
+      "id": "official-2026-12-05-Sutura-diurno",
+      "date": "2026-12-05",
+      "sector": "Sutura diurno",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "MARCOS A.",
+        "MARIANA C."
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 17. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 17
+    },
+    {
+      "id": "official-2026-12-05-Vascular",
+      "date": "2026-12-05",
+      "sector": "Vascular",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "M. EDUARDA"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 17. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 17
+    },
+    {
+      "id": "official-2026-12-06-Enfermaria",
+      "date": "2026-12-06",
+      "sector": "Enfermaria",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "CAROLINA",
+        "SHAYANE"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 17. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 17
+    },
+    {
+      "id": "official-2026-12-06-Sutura-diurno",
+      "date": "2026-12-06",
+      "sector": "Sutura diurno",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "CAROLINA",
+        "SHAYANE"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 17. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 17
+    },
+    {
+      "id": "official-2026-12-07-Digestiva",
+      "date": "2026-12-07",
+      "sector": "Digestiva",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "LEONARDO",
+        "VICTOR H."
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 19. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 19
+    },
+    {
+      "id": "official-2026-12-07-Enfermaria",
+      "date": "2026-12-07",
+      "sector": "Enfermaria",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "BELMIRO",
+        "CLAUDIELMA",
+        "DIEGO",
+        "CARLOS"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 18. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 18
+    },
+    {
+      "id": "official-2026-12-07-Oncologia",
+      "date": "2026-12-07",
+      "sector": "Oncologia",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "FABRÍCIO"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 18. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 18
+    },
+    {
+      "id": "official-2026-12-07-Ortopedia",
+      "date": "2026-12-07",
+      "sector": "Ortopedia",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "CAROLINA",
+        "SHAYANE"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 18. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 18
+    },
+    {
+      "id": "official-2026-12-07-Sutura-diurno",
+      "date": "2026-12-07",
+      "sector": "Sutura diurno",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "JEAN",
+        "ADLEY"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 18. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 18
+    },
+    {
+      "id": "official-2026-12-07-Vascular",
+      "date": "2026-12-07",
+      "sector": "Vascular",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "ANA CAROLINA"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 18. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 18
+    },
+    {
+      "id": "official-2026-12-07-Sutura-noturno",
+      "date": "2026-12-07",
+      "sector": "Sutura noturno",
+      "start": "19:00",
+      "end": "23:00",
+      "names": [
+        "M. EDUARDA"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 18. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 18
+    },
+    {
+      "id": "official-2026-12-08-Endoscopia",
+      "date": "2026-12-08",
+      "sector": "Endoscopia",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "M. EDUARDA"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 19. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 19
+    },
+    {
+      "id": "official-2026-12-08-Enfermaria",
+      "date": "2026-12-08",
+      "sector": "Enfermaria",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "BELMIRO",
+        "CLAUDIELMA",
+        "DIEGO",
+        "CARLOS"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 18. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 18
+    },
+    {
+      "id": "official-2026-12-08-Oncologia",
+      "date": "2026-12-08",
+      "sector": "Oncologia",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "VICTOR H."
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 18. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 18
+    },
+    {
+      "id": "official-2026-12-08-Ortopedia",
+      "date": "2026-12-08",
+      "sector": "Ortopedia",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "CAROLINA",
+        "SHAYANE"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 18. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 18
+    },
+    {
+      "id": "official-2026-12-08-Sutura-diurno",
+      "date": "2026-12-08",
+      "sector": "Sutura diurno",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "MARCOS A.",
+        "MARIANA C."
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 18. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 18
+    },
+    {
+      "id": "official-2026-12-08-Sutura-noturno",
+      "date": "2026-12-08",
+      "sector": "Sutura noturno",
+      "start": "19:00",
+      "end": "23:00",
+      "names": [
+        "JEAN",
+        "ADLEY"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 18. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 18
+    },
+    {
+      "id": "official-2026-12-09-Enfermaria",
+      "date": "2026-12-09",
+      "sector": "Enfermaria",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "BELMIRO",
+        "CLAUDIELMA",
+        "DIEGO",
+        "CARLOS"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 18. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 18
+    },
+    {
+      "id": "official-2026-12-09-Oncologia",
+      "date": "2026-12-09",
+      "sector": "Oncologia",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "FABRÍCIO"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 18. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 18
+    },
+    {
+      "id": "official-2026-12-09-Ortopedia",
+      "date": "2026-12-09",
+      "sector": "Ortopedia",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "CAROLINA",
+        "SHAYANE"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 18. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 18
+    },
+    {
+      "id": "official-2026-12-09-Plástica",
+      "date": "2026-12-09",
+      "sector": "Plástica",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "VICTOR H.",
+        "LEONARDO"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 19. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 19
+    },
+    {
+      "id": "official-2026-12-09-Sutura-diurno",
+      "date": "2026-12-09",
+      "sector": "Sutura diurno",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "JEAN",
+        "ADLEY"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 18. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 18
+    },
+    {
+      "id": "official-2026-12-09-Vascular",
+      "date": "2026-12-09",
+      "sector": "Vascular",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "ANA CAROLINA",
+        "M. EDUARDA"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 18. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 18
+    },
+    {
+      "id": "official-2026-12-09-Sutura-noturno",
+      "date": "2026-12-09",
+      "sector": "Sutura noturno",
+      "start": "19:00",
+      "end": "23:00",
+      "names": [
+        "MARCOS A.",
+        "MARIANA C."
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 18. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 18
+    },
+    {
+      "id": "official-2026-12-10-Digestiva",
+      "date": "2026-12-10",
+      "sector": "Digestiva",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "M. EDUARDA",
+        "FABRÍCIO"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 19. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 19
+    },
+    {
+      "id": "official-2026-12-10-Enfermaria",
+      "date": "2026-12-10",
+      "sector": "Enfermaria",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "BELMIRO",
+        "CLAUDIELMA",
+        "CARLOS",
+        "DIEGO"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 18. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 18
+    },
+    {
+      "id": "official-2026-12-10-Ortopedia",
+      "date": "2026-12-10",
+      "sector": "Ortopedia",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "CAROLINA",
+        "SHAYANE"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 18. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 18
+    },
+    {
+      "id": "official-2026-12-10-Sutura-diurno",
+      "date": "2026-12-10",
+      "sector": "Sutura diurno",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "MARCOS A.",
+        "MARIANA C."
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 18. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 18
+    },
+    {
+      "id": "official-2026-12-10-Urologia",
+      "date": "2026-12-10",
+      "sector": "Urologia",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "LEONARDO",
+        "VICTOR H."
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 19. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 19
+    },
+    {
+      "id": "official-2026-12-10-Urologia-Marcos",
+      "date": "2026-12-10",
+      "sector": "Urologia Marcos",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "ANA CAROLINA"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 19. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 19
+    },
+    {
+      "id": "official-2026-12-11-Enfermaria",
+      "date": "2026-12-11",
+      "sector": "Enfermaria",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "BELMIRO",
+        "CLAUDIELMA",
+        "JEAN",
+        "ADLEY"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 18. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 18
+    },
+    {
+      "id": "official-2026-12-11-Oncologia",
+      "date": "2026-12-11",
+      "sector": "Oncologia",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "M. EDUARDA"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 18. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 18
+    },
+    {
+      "id": "official-2026-12-11-Ortopedia",
+      "date": "2026-12-11",
+      "sector": "Ortopedia",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "CAROLINA",
+        "SHAYANE"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 18. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 18
+    },
+    {
+      "id": "official-2026-12-11-Sutura-diurno",
+      "date": "2026-12-11",
+      "sector": "Sutura diurno",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "VICTOR H.",
+        "LEONARDO",
+        "FABRÍCIO"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 18. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 18
+    },
+    {
+      "id": "official-2026-12-11-Vascular",
+      "date": "2026-12-11",
+      "sector": "Vascular",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "ANA CAROLINA"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 18. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 18
+    },
+    {
+      "id": "official-2026-12-11-Sutura-noturno",
+      "date": "2026-12-11",
+      "sector": "Sutura noturno",
+      "start": "19:00",
+      "end": "23:00",
+      "names": [
+        "M. EDUARDA"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 18. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 18
+    },
+    {
+      "id": "official-2026-12-12-Sutura-diurno",
+      "date": "2026-12-12",
+      "sector": "Sutura diurno",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "MARCOS A.",
+        "MARIANA C."
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 18. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 18
+    },
+    {
+      "id": "official-2026-12-12-Vascular",
+      "date": "2026-12-12",
+      "sector": "Vascular",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "ANA CAROLINA"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 18. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 18
+    },
+    {
+      "id": "official-2026-12-13-Enfermaria",
+      "date": "2026-12-13",
+      "sector": "Enfermaria",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "CAROLINA",
+        "SHAYANE"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 18. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 18
+    },
+    {
+      "id": "official-2026-12-13-Sutura-diurno",
+      "date": "2026-12-13",
+      "sector": "Sutura diurno",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "CAROLINA",
+        "SHAYANE"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 18. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 18
+    },
+    {
+      "id": "official-2026-12-14-Digestiva",
+      "date": "2026-12-14",
+      "sector": "Digestiva",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "CARLOS"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 20. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 20
+    },
+    {
+      "id": "official-2026-12-14-Enfermaria",
+      "date": "2026-12-14",
+      "sector": "Enfermaria",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "BELMIRO",
+        "CLAUDIELMA",
+        "JEAN",
+        "ADLEY"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 20. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 20
+    },
+    {
+      "id": "official-2026-12-14-Oncologia",
+      "date": "2026-12-14",
+      "sector": "Oncologia",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "DIEGO"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 20. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 20
+    },
+    {
+      "id": "official-2026-12-14-Ortopedia",
+      "date": "2026-12-14",
+      "sector": "Ortopedia",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "CAROLINA",
+        "SHAYANE"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 20. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 20
+    },
+    {
+      "id": "official-2026-12-14-Sutura-diurno",
+      "date": "2026-12-14",
+      "sector": "Sutura diurno",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "VICTOR H.",
+        "LEONARDO",
+        "FABRÍCIO"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 20. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 20
+    },
+    {
+      "id": "official-2026-12-14-Vascular",
+      "date": "2026-12-14",
+      "sector": "Vascular",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "M. EDUARDA"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 20. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 20
+    },
+    {
+      "id": "official-2026-12-14-Sutura-noturno",
+      "date": "2026-12-14",
+      "sector": "Sutura noturno",
+      "start": "19:00",
+      "end": "23:00",
+      "names": [
+        "ANA CAROLINA"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 20. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 20
+    },
+    {
+      "id": "official-2026-12-15-Endoscopia",
+      "date": "2026-12-15",
+      "sector": "Endoscopia",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "BELMIRO"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 20. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 20
+    },
+    {
+      "id": "official-2026-12-15-Enfermaria",
+      "date": "2026-12-15",
+      "sector": "Enfermaria",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "MARCOS A.",
+        "MARIANA C.",
+        "JEAN",
+        "ADLEY"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 20. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 20
+    },
+    {
+      "id": "official-2026-12-15-Oncologia",
+      "date": "2026-12-15",
+      "sector": "Oncologia",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "CARLOS"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 20. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 20
+    },
+    {
+      "id": "official-2026-12-15-Ortopedia",
+      "date": "2026-12-15",
+      "sector": "Ortopedia",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "ANA CAROLINA",
+        "M. EDUARDA"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 20. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 20
+    },
+    {
+      "id": "official-2026-12-15-Sutura-diurno",
+      "date": "2026-12-15",
+      "sector": "Sutura diurno",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "CAROLINA",
+        "SHAYANE"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 20. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 20
+    },
+    {
+      "id": "official-2026-12-15-Sutura-noturno",
+      "date": "2026-12-15",
+      "sector": "Sutura noturno",
+      "start": "19:00",
+      "end": "23:00",
+      "names": [
+        "VICTOR H.",
+        "LEONARDO",
+        "FABRÍCIO"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 20. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 20
+    },
+    {
+      "id": "official-2026-12-16-Enfermaria",
+      "date": "2026-12-16",
+      "sector": "Enfermaria",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "MARCOS A.",
+        "MARIANA C.",
+        "JEAN",
+        "ADLEY"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 20. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 20
+    },
+    {
+      "id": "official-2026-12-16-Oncologia",
+      "date": "2026-12-16",
+      "sector": "Oncologia",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "CARLOS"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 20. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 20
+    },
+    {
+      "id": "official-2026-12-16-Ortopedia",
+      "date": "2026-12-16",
+      "sector": "Ortopedia",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "ANA CAROLINA",
+        "M. EDUARDA"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 20. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 20
+    },
+    {
+      "id": "official-2026-12-16-Plástica",
+      "date": "2026-12-16",
+      "sector": "Plástica",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "DIEGO"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 20. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 20
+    },
+    {
+      "id": "official-2026-12-16-Sutura-diurno",
+      "date": "2026-12-16",
+      "sector": "Sutura diurno",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "VICTOR H.",
+        "LEONARDO",
+        "FABRÍCIO"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 20. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 20
+    },
+    {
+      "id": "official-2026-12-16-Vascular",
+      "date": "2026-12-16",
+      "sector": "Vascular",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "BELMIRO"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 20. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 20
+    },
+    {
+      "id": "official-2026-12-16-Sutura-noturno",
+      "date": "2026-12-16",
+      "sector": "Sutura noturno",
+      "start": "19:00",
+      "end": "23:00",
+      "names": [
+        "CAROLINA",
+        "SHAYANE"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 20. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 20
+    },
+    {
+      "id": "official-2026-12-17-Digestiva",
+      "date": "2026-12-17",
+      "sector": "Digestiva",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "BELMIRO",
+        "CARLOS"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 20. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 20
+    },
+    {
+      "id": "official-2026-12-17-Enfermaria",
+      "date": "2026-12-17",
+      "sector": "Enfermaria",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "MARCOS A.",
+        "MARIANA C.",
+        "JEAN",
+        "ADLEY"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 20. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 20
+    },
+    {
+      "id": "official-2026-12-17-Ortopedia",
+      "date": "2026-12-17",
+      "sector": "Ortopedia",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "ANA CAROLINA",
+        "M. EDUARDA"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 20. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 20
+    },
+    {
+      "id": "official-2026-12-17-Sutura-diurno",
+      "date": "2026-12-17",
+      "sector": "Sutura diurno",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "CAROLINA",
+        "SHAYANE"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 20. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 20
+    },
+    {
+      "id": "official-2026-12-17-Urologia",
+      "date": "2026-12-17",
+      "sector": "Urologia",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "DIEGO"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 21. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 21
+    },
+    {
+      "id": "official-2026-12-17-Urologia-Marcos",
+      "date": "2026-12-17",
+      "sector": "Urologia Marcos",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "CLAUDIELMA"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 20. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 20
+    },
+    {
+      "id": "official-2026-12-18-Enfermaria",
+      "date": "2026-12-18",
+      "sector": "Enfermaria",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "MARCOS A.",
+        "MARIANA C.",
+        "JEAN",
+        "ADLEY"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 20. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 20
+    },
+    {
+      "id": "official-2026-12-18-Oncologia",
+      "date": "2026-12-18",
+      "sector": "Oncologia",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "BELMIRO"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 20. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 20
+    },
+    {
+      "id": "official-2026-12-18-Ortopedia",
+      "date": "2026-12-18",
+      "sector": "Ortopedia",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "ANA CAROLINA",
+        "M. EDUARDA"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 20. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 20
+    },
+    {
+      "id": "official-2026-12-18-Sutura-diurno",
+      "date": "2026-12-18",
+      "sector": "Sutura diurno",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "VICTOR H.",
+        "LEONARDO",
+        "FABRÍCIO"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 20. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 20
+    },
+    {
+      "id": "official-2026-12-18-Vascular",
+      "date": "2026-12-18",
+      "sector": "Vascular",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "CLAUDIELMA"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 20. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 20
+    },
+    {
+      "id": "official-2026-12-18-Sutura-noturno",
+      "date": "2026-12-18",
+      "sector": "Sutura noturno",
+      "start": "19:00",
+      "end": "23:00",
+      "names": [
+        "BELMIRO"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 20. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 20
+    },
+    {
+      "id": "official-2026-12-19-Sutura-diurno",
+      "date": "2026-12-19",
+      "sector": "Sutura diurno",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "CAROLINA",
+        "SHAYANE"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 20. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 20
+    },
+    {
+      "id": "official-2026-12-19-Vascular",
+      "date": "2026-12-19",
+      "sector": "Vascular",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "CLAUDIELMA"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 20. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 20
+    },
+    {
+      "id": "official-2026-12-20-Enfermaria",
+      "date": "2026-12-20",
+      "sector": "Enfermaria",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "ANA CAROLINA",
+        "M. EDUARDA"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 20. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 20
+    },
+    {
+      "id": "official-2026-12-20-Sutura-diurno",
+      "date": "2026-12-20",
+      "sector": "Sutura diurno",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "ANA CAROLINA",
+        "M. EDUARDA"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 20. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 20
+    },
+    {
+      "id": "official-2026-12-21-Digestiva",
+      "date": "2026-12-21",
+      "sector": "Digestiva",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "DIEGO"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 22. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 22
+    },
+    {
+      "id": "official-2026-12-21-Enfermaria",
+      "date": "2026-12-21",
+      "sector": "Enfermaria",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "MARCOS A.",
+        "MARIANA C.",
+        "JEAN",
+        "ADLEY"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 21. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 21
+    },
+    {
+      "id": "official-2026-12-21-Oncologia",
+      "date": "2026-12-21",
+      "sector": "Oncologia",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "CARLOS"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 21. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 21
+    },
+    {
+      "id": "official-2026-12-21-Ortopedia",
+      "date": "2026-12-21",
+      "sector": "Ortopedia",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "ANA CAROLINA",
+        "M. EDUARDA"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 21. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 21
+    },
+    {
+      "id": "official-2026-12-21-Sutura-diurno",
+      "date": "2026-12-21",
+      "sector": "Sutura diurno",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "VICTOR H.",
+        "LEONARDO",
+        "FABRÍCIO"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 21. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 21
+    },
+    {
+      "id": "official-2026-12-21-Vascular",
+      "date": "2026-12-21",
+      "sector": "Vascular",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "BELMIRO"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 21. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 21
+    },
+    {
+      "id": "official-2026-12-21-Sutura-noturno",
+      "date": "2026-12-21",
+      "sector": "Sutura noturno",
+      "start": "19:00",
+      "end": "23:00",
+      "names": [
+        "CLAUDIELMA"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 21. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 21
+    },
+    {
+      "id": "official-2026-12-22-Endoscopia",
+      "date": "2026-12-22",
+      "sector": "Endoscopia",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "CLAUDIELMA"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 22. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 22
+    },
+    {
+      "id": "official-2026-12-22-Enfermaria",
+      "date": "2026-12-22",
+      "sector": "Enfermaria",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "MARCOS A.",
+        "MARIANA C.",
+        "JEAN",
+        "ADLEY"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 21. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 21
+    },
+    {
+      "id": "official-2026-12-22-Oncologia",
+      "date": "2026-12-22",
+      "sector": "Oncologia",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "DIEGO"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 21. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 21
+    },
+    {
+      "id": "official-2026-12-22-Ortopedia",
+      "date": "2026-12-22",
+      "sector": "Ortopedia",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "ANA CAROLINA",
+        "M. EDUARDA"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 21. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 21
+    },
+    {
+      "id": "official-2026-12-22-Sutura-diurno",
+      "date": "2026-12-22",
+      "sector": "Sutura diurno",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "CAROLINA",
+        "SHAYANE"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 21. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 21
+    },
+    {
+      "id": "official-2026-12-22-Sutura-noturno",
+      "date": "2026-12-22",
+      "sector": "Sutura noturno",
+      "start": "19:00",
+      "end": "23:00",
+      "names": [
+        "VICTOR H.",
+        "LEONARDO",
+        "FABRÍCIO"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 21. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 21
+    },
+    {
+      "id": "official-2026-12-23-Enfermaria",
+      "date": "2026-12-23",
+      "sector": "Enfermaria",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "MARCOS A.",
+        "MARIANA C.",
+        "JEAN",
+        "ADLEY"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 21. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 21
+    },
+    {
+      "id": "official-2026-12-23-Oncologia",
+      "date": "2026-12-23",
+      "sector": "Oncologia",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "DIEGO"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 21. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 21
+    },
+    {
+      "id": "official-2026-12-23-Ortopedia",
+      "date": "2026-12-23",
+      "sector": "Ortopedia",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "ANA CAROLINA",
+        "M. EDUARDA"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 21. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 21
+    },
+    {
+      "id": "official-2026-12-23-Plástica",
+      "date": "2026-12-23",
+      "sector": "Plástica",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "CARLOS"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 22. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 22
+    },
+    {
+      "id": "official-2026-12-23-Sutura-diurno",
+      "date": "2026-12-23",
+      "sector": "Sutura diurno",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "VICTOR H.",
+        "LEONARDO",
+        "FABRÍCIO"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 21. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 21
+    },
+    {
+      "id": "official-2026-12-23-Vascular",
+      "date": "2026-12-23",
+      "sector": "Vascular",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "BELMIRO",
+        "CLAUDIELMA"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 21. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 21
+    },
+    {
+      "id": "official-2026-12-23-Sutura-noturno",
+      "date": "2026-12-23",
+      "sector": "Sutura noturno",
+      "start": "19:00",
+      "end": "23:00",
+      "names": [
+        "CAROLINA",
+        "SHAYANE"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 21. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 21
+    },
+    {
+      "id": "official-2026-12-24-Digestiva",
+      "date": "2026-12-24",
+      "sector": "Digestiva",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "CLAUDIELMA",
+        "DIEGO"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 22. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 22
+    },
+    {
+      "id": "official-2026-12-24-Enfermaria",
+      "date": "2026-12-24",
+      "sector": "Enfermaria",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "MARCOS A.",
+        "MARIANA C.",
+        "JEAN",
+        "ADLEY"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 21. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 21
+    },
+    {
+      "id": "official-2026-12-24-Ortopedia",
+      "date": "2026-12-24",
+      "sector": "Ortopedia",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "ANA CAROLINA",
+        "M. EDUARDA"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 21. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 21
+    },
+    {
+      "id": "official-2026-12-24-Sutura-diurno",
+      "date": "2026-12-24",
+      "sector": "Sutura diurno",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "CAROLINA",
+        "SHAYANE"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 21. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 21
+    },
+    {
+      "id": "official-2026-12-24-Urologia",
+      "date": "2026-12-24",
+      "sector": "Urologia",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "CARLOS"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 22. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 22
+    },
+    {
+      "id": "official-2026-12-24-Urologia-Marcos",
+      "date": "2026-12-24",
+      "sector": "Urologia Marcos",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "BELMIRO"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 22. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 22
+    },
+    {
+      "id": "official-2026-12-25-Enfermaria",
+      "date": "2026-12-25",
+      "sector": "Enfermaria",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "MARCOS A.",
+        "MARIANA C.",
+        "JEAN",
+        "ADLEY"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 21. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 21
+    },
+    {
+      "id": "official-2026-12-25-Oncologia",
+      "date": "2026-12-25",
+      "sector": "Oncologia",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "CLAUDIELMA"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 21. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 21
+    },
+    {
+      "id": "official-2026-12-25-Ortopedia",
+      "date": "2026-12-25",
+      "sector": "Ortopedia",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "ANA CAROLINA",
+        "M. EDUARDA"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 21. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 21
+    },
+    {
+      "id": "official-2026-12-25-Sutura-diurno",
+      "date": "2026-12-25",
+      "sector": "Sutura diurno",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "VICTOR H.",
+        "LEONARDO",
+        "FABRÍCIO"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 21. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 21
+    },
+    {
+      "id": "official-2026-12-25-Vascular",
+      "date": "2026-12-25",
+      "sector": "Vascular",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "BELMIRO"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 21. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 21
+    },
+    {
+      "id": "official-2026-12-25-Sutura-noturno",
+      "date": "2026-12-25",
+      "sector": "Sutura noturno",
+      "start": "19:00",
+      "end": "23:00",
+      "names": [
+        "CLAUDIELMA"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 21. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 21
+    },
+    {
+      "id": "official-2026-12-26-Sutura-diurno",
+      "date": "2026-12-26",
+      "sector": "Sutura diurno",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "CAROLINA",
+        "SHAYANE"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 21. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 21
+    },
+    {
+      "id": "official-2026-12-26-Vascular",
+      "date": "2026-12-26",
+      "sector": "Vascular",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "BELMIRO"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 21. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 21
+    },
+    {
+      "id": "official-2026-12-27-Enfermaria",
+      "date": "2026-12-27",
+      "sector": "Enfermaria",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "ANA CAROLINA",
+        "M. EDUARDA"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 21. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 21
+    },
+    {
+      "id": "official-2026-12-27-Sutura-diurno",
+      "date": "2026-12-27",
+      "sector": "Sutura diurno",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "ANA CAROLINA",
+        "M. EDUARDA"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 21. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 21
+    },
+    {
+      "id": "official-2026-12-28-Digestiva",
+      "date": "2026-12-28",
+      "sector": "Digestiva",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "CARLOS"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 23. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 23
+    },
+    {
+      "id": "official-2026-12-28-Enfermaria",
+      "date": "2026-12-28",
+      "sector": "Enfermaria",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "BELMIRO",
+        "CLAUDIELMA",
+        "JEAN",
+        "ADLEY"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 23. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 23
+    },
+    {
+      "id": "official-2026-12-28-Oncologia",
+      "date": "2026-12-28",
+      "sector": "Oncologia",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "DIEGO"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 23. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 23
+    },
+    {
+      "id": "official-2026-12-28-Ortopedia",
+      "date": "2026-12-28",
+      "sector": "Ortopedia",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "CAROLINA",
+        "SHAYANE"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 22. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 22
+    },
+    {
+      "id": "official-2026-12-28-Sutura-diurno",
+      "date": "2026-12-28",
+      "sector": "Sutura diurno",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "VICTOR H.",
+        "LEONARDO",
+        "FABRÍCIO"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 22. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 22
+    },
+    {
+      "id": "official-2026-12-28-Vascular",
+      "date": "2026-12-28",
+      "sector": "Vascular",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "M. EDUARDA"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 23. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 23
+    },
+    {
+      "id": "official-2026-12-28-Sutura-noturno",
+      "date": "2026-12-28",
+      "sector": "Sutura noturno",
+      "start": "19:00",
+      "end": "23:00",
+      "names": [
+        "ANA CAROLINA"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 22. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 22
+    },
+    {
+      "id": "official-2026-12-29-Endoscopia",
+      "date": "2026-12-29",
+      "sector": "Endoscopia",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "BELMIRO"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 23. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 23
+    },
+    {
+      "id": "official-2026-12-29-Enfermaria",
+      "date": "2026-12-29",
+      "sector": "Enfermaria",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "MARCOS A.",
+        "MARIANA C.",
+        "JEAN",
+        "ADLEY"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 23. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 23
+    },
+    {
+      "id": "official-2026-12-29-Oncologia",
+      "date": "2026-12-29",
+      "sector": "Oncologia",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "CARLOS"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 23. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 23
+    },
+    {
+      "id": "official-2026-12-29-Ortopedia",
+      "date": "2026-12-29",
+      "sector": "Ortopedia",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "ANA CAROLINA",
+        "M. EDUARDA"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 22. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 22
+    },
+    {
+      "id": "official-2026-12-29-Sutura-diurno",
+      "date": "2026-12-29",
+      "sector": "Sutura diurno",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "CAROLINA",
+        "SHAYANE"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 22. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 22
+    },
+    {
+      "id": "official-2026-12-29-Sutura-noturno",
+      "date": "2026-12-29",
+      "sector": "Sutura noturno",
+      "start": "19:00",
+      "end": "23:00",
+      "names": [
+        "VICTOR H.",
+        "LEONARDO",
+        "FABRÍCIO"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 22. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 22
+    },
+    {
+      "id": "official-2026-12-30-Enfermaria",
+      "date": "2026-12-30",
+      "sector": "Enfermaria",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "MARCOS A.",
+        "MARIANA C.",
+        "JEAN",
+        "ADLEY"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 23. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 23
+    },
+    {
+      "id": "official-2026-12-30-Oncologia",
+      "date": "2026-12-30",
+      "sector": "Oncologia",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "CARLOS"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 23. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 23
+    },
+    {
+      "id": "official-2026-12-30-Ortopedia",
+      "date": "2026-12-30",
+      "sector": "Ortopedia",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "ANA CAROLINA",
+        "M. EDUARDA"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 22. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 22
+    },
+    {
+      "id": "official-2026-12-30-Plástica",
+      "date": "2026-12-30",
+      "sector": "Plástica",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "DIEGO"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 23. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 23
+    },
+    {
+      "id": "official-2026-12-30-Sutura-diurno",
+      "date": "2026-12-30",
+      "sector": "Sutura diurno",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "VICTOR H.",
+        "LEONARDO",
+        "FABRÍCIO"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 22. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 22
+    },
+    {
+      "id": "official-2026-12-30-Vascular",
+      "date": "2026-12-30",
+      "sector": "Vascular",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "BELMIRO"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 23. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 23
+    },
+    {
+      "id": "official-2026-12-30-Sutura-noturno",
+      "date": "2026-12-30",
+      "sector": "Sutura noturno",
+      "start": "19:00",
+      "end": "23:00",
+      "names": [
+        "CAROLINA",
+        "SHAYANE"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 22. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 22
+    },
+    {
+      "id": "official-2026-12-31-Digestiva",
+      "date": "2026-12-31",
+      "sector": "Digestiva",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "BELMIRO",
+        "CARLOS"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 23. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 23
+    },
+    {
+      "id": "official-2026-12-31-Enfermaria",
+      "date": "2026-12-31",
+      "sector": "Enfermaria",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "MARCOS A.",
+        "MARIANA C.",
+        "JEAN",
+        "ADLEY"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 23. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 23
+    },
+    {
+      "id": "official-2026-12-31-Ortopedia",
+      "date": "2026-12-31",
+      "sector": "Ortopedia",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "ANA CAROLINA",
+        "M. EDUARDA"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 22. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 22
+    },
+    {
+      "id": "official-2026-12-31-Sutura-diurno",
+      "date": "2026-12-31",
+      "sector": "Sutura diurno",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "CAROLINA",
+        "SHAYANE"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 22. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 22
+    },
+    {
+      "id": "official-2026-12-31-Urologia",
+      "date": "2026-12-31",
+      "sector": "Urologia",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "DIEGO"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 23. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 23
+    },
+    {
+      "id": "official-2026-12-31-Urologia-Marcos",
+      "date": "2026-12-31",
+      "sector": "Urologia Marcos",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "CLAUDIELMA"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 23. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 23
+    },
+    {
+      "id": "official-2027-01-01-Enfermaria",
+      "date": "2027-01-01",
+      "sector": "Enfermaria",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "MARCOS A.",
+        "MARIANA C.",
+        "JEAN",
+        "ADLEY"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 23. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 23
+    },
+    {
+      "id": "official-2027-01-01-Oncologia",
+      "date": "2027-01-01",
+      "sector": "Oncologia",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "BELMIRO"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 23. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 23
+    },
+    {
+      "id": "official-2027-01-01-Ortopedia",
+      "date": "2027-01-01",
+      "sector": "Ortopedia",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "ANA CAROLINA",
+        "M. EDUARDA"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 22. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 22
+    },
+    {
+      "id": "official-2027-01-01-Sutura-diurno",
+      "date": "2027-01-01",
+      "sector": "Sutura diurno",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "VICTOR H.",
+        "LEONARDO",
+        "FABRÍCIO"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 22. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 22
+    },
+    {
+      "id": "official-2027-01-01-Vascular",
+      "date": "2027-01-01",
+      "sector": "Vascular",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "CLAUDIELMA"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 23. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 23
+    },
+    {
+      "id": "official-2027-01-01-Sutura-noturno",
+      "date": "2027-01-01",
+      "sector": "Sutura noturno",
+      "start": "19:00",
+      "end": "23:00",
+      "names": [
+        "BELMIRO"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 22. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 22
+    },
+    {
+      "id": "official-2027-01-02-Sutura-diurno",
+      "date": "2027-01-02",
+      "sector": "Sutura diurno",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "CAROLINA",
+        "SHAYANE"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 22. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 22
+    },
+    {
+      "id": "official-2027-01-02-Vascular",
+      "date": "2027-01-02",
+      "sector": "Vascular",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "CLAUDIELMA"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 23. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 23
+    },
+    {
+      "id": "official-2027-01-03-Enfermaria",
+      "date": "2027-01-03",
+      "sector": "Enfermaria",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "ANA CAROLINA",
+        "M. EDUARDA"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 23. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 23
+    },
+    {
+      "id": "official-2027-01-03-Sutura-diurno",
+      "date": "2027-01-03",
+      "sector": "Sutura diurno",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "ANA CAROLINA",
+        "M. EDUARDA"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 22. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 22
+    },
+    {
+      "id": "official-2027-01-04-Digestiva",
+      "date": "2027-01-04",
+      "sector": "Digestiva",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "DIEGO"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 24. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 24
+    },
+    {
+      "id": "official-2027-01-04-Enfermaria",
+      "date": "2027-01-04",
+      "sector": "Enfermaria",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "MARCOS A.",
+        "MARIANA C.",
+        "JEAN",
+        "ADLEY"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 24. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 24
+    },
+    {
+      "id": "official-2027-01-04-Oncologia",
+      "date": "2027-01-04",
+      "sector": "Oncologia",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "CARLOS"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 24. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 24
+    },
+    {
+      "id": "official-2027-01-04-Ortopedia",
+      "date": "2027-01-04",
+      "sector": "Ortopedia",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "ANA CAROLINA",
+        "M. EDUARDA"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 24. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 24
+    },
+    {
+      "id": "official-2027-01-04-Sutura-diurno",
+      "date": "2027-01-04",
+      "sector": "Sutura diurno",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "VICTOR H.",
+        "LEONARDO",
+        "FABRÍCIO"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 24. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 24
+    },
+    {
+      "id": "official-2027-01-04-Vascular",
+      "date": "2027-01-04",
+      "sector": "Vascular",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "BELMIRO"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 24. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 24
+    },
+    {
+      "id": "official-2027-01-04-Sutura-noturno",
+      "date": "2027-01-04",
+      "sector": "Sutura noturno",
+      "start": "19:00",
+      "end": "23:00",
+      "names": [
+        "CLAUDIELMA"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 24. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 24
+    },
+    {
+      "id": "official-2027-01-05-Endoscopia",
+      "date": "2027-01-05",
+      "sector": "Endoscopia",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "CLAUDIELMA"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 24. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 24
+    },
+    {
+      "id": "official-2027-01-05-Enfermaria",
+      "date": "2027-01-05",
+      "sector": "Enfermaria",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "MARCOS A.",
+        "MARIANA C.",
+        "JEAN",
+        "ADLEY"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 24. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 24
+    },
+    {
+      "id": "official-2027-01-05-Oncologia",
+      "date": "2027-01-05",
+      "sector": "Oncologia",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "DIEGO"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 24. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 24
+    },
+    {
+      "id": "official-2027-01-05-Ortopedia",
+      "date": "2027-01-05",
+      "sector": "Ortopedia",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "ANA CAROLINA",
+        "M. EDUARDA"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 24. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 24
+    },
+    {
+      "id": "official-2027-01-05-Sutura-diurno",
+      "date": "2027-01-05",
+      "sector": "Sutura diurno",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "CAROLINA",
+        "SHAYANE"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 24. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 24
+    },
+    {
+      "id": "official-2027-01-05-Sutura-noturno",
+      "date": "2027-01-05",
+      "sector": "Sutura noturno",
+      "start": "19:00",
+      "end": "23:00",
+      "names": [
+        "VICTOR H.",
+        "LEONARDO",
+        "FABRÍCIO"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 24. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 24
+    },
+    {
+      "id": "official-2027-01-06-Enfermaria",
+      "date": "2027-01-06",
+      "sector": "Enfermaria",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "MARCOS A.",
+        "MARIANA C.",
+        "JEAN",
+        "ADLEY"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 24. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 24
+    },
+    {
+      "id": "official-2027-01-06-Oncologia",
+      "date": "2027-01-06",
+      "sector": "Oncologia",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "DIEGO"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 24. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 24
+    },
+    {
+      "id": "official-2027-01-06-Ortopedia",
+      "date": "2027-01-06",
+      "sector": "Ortopedia",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "ANA CAROLINA",
+        "M. EDUARDA"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 24. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 24
+    },
+    {
+      "id": "official-2027-01-06-Plástica",
+      "date": "2027-01-06",
+      "sector": "Plástica",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "CARLOS"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 24. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 24
+    },
+    {
+      "id": "official-2027-01-06-Sutura-diurno",
+      "date": "2027-01-06",
+      "sector": "Sutura diurno",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "VICTOR H.",
+        "LEONARDO",
+        "FABRÍCIO"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 24. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 24
+    },
+    {
+      "id": "official-2027-01-06-Vascular",
+      "date": "2027-01-06",
+      "sector": "Vascular",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "BELMIRO",
+        "CLAUDIELMA"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 24. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 24
+    },
+    {
+      "id": "official-2027-01-06-Sutura-noturno",
+      "date": "2027-01-06",
+      "sector": "Sutura noturno",
+      "start": "19:00",
+      "end": "23:00",
+      "names": [
+        "CAROLINA",
+        "SHAYANE"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 24. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 24
+    },
+    {
+      "id": "official-2027-01-07-Digestiva",
+      "date": "2027-01-07",
+      "sector": "Digestiva",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "CLAUDIELMA",
+        "DIEGO"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 24. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 24
+    },
+    {
+      "id": "official-2027-01-07-Enfermaria",
+      "date": "2027-01-07",
+      "sector": "Enfermaria",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "MARCOS A.",
+        "MARIANA C.",
+        "JEAN",
+        "ADLEY"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 24. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 24
+    },
+    {
+      "id": "official-2027-01-07-Ortopedia",
+      "date": "2027-01-07",
+      "sector": "Ortopedia",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "ANA CAROLINA",
+        "M. EDUARDA"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 24. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 24
+    },
+    {
+      "id": "official-2027-01-07-Sutura-diurno",
+      "date": "2027-01-07",
+      "sector": "Sutura diurno",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "CAROLINA",
+        "SHAYANE"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 24. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 24
+    },
+    {
+      "id": "official-2027-01-07-Urologia",
+      "date": "2027-01-07",
+      "sector": "Urologia",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "CARLOS"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 24. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 24
+    },
+    {
+      "id": "official-2027-01-07-Urologia-Marcos",
+      "date": "2027-01-07",
+      "sector": "Urologia Marcos",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "BELMIRO"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 24. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 24
+    },
+    {
+      "id": "official-2027-01-08-Enfermaria",
+      "date": "2027-01-08",
+      "sector": "Enfermaria",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "MARCOS A.",
+        "MARIANA C.",
+        "JEAN",
+        "ADLEY"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 24. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 24
+    },
+    {
+      "id": "official-2027-01-08-Oncologia",
+      "date": "2027-01-08",
+      "sector": "Oncologia",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "CLAUDIELMA"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 24. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 24
+    },
+    {
+      "id": "official-2027-01-08-Ortopedia",
+      "date": "2027-01-08",
+      "sector": "Ortopedia",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "ANA CAROLINA",
+        "M. EDUARDA"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 24. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 24
+    },
+    {
+      "id": "official-2027-01-08-Sutura-diurno",
+      "date": "2027-01-08",
+      "sector": "Sutura diurno",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "VICTOR H.",
+        "LEONARDO",
+        "FABRÍCIO"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 24. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 24
+    },
+    {
+      "id": "official-2027-01-08-Vascular",
+      "date": "2027-01-08",
+      "sector": "Vascular",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "BELMIRO"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 24. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 24
+    },
+    {
+      "id": "official-2027-01-08-Sutura-noturno",
+      "date": "2027-01-08",
+      "sector": "Sutura noturno",
+      "start": "19:00",
+      "end": "23:00",
+      "names": [
+        "CLAUDIELMA"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 24. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 24
+    },
+    {
+      "id": "official-2027-01-09-Sutura-diurno",
+      "date": "2027-01-09",
+      "sector": "Sutura diurno",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "CAROLINA",
+        "SHAYANE"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 24. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 24
+    },
+    {
+      "id": "official-2027-01-09-Vascular",
+      "date": "2027-01-09",
+      "sector": "Vascular",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "BELMIRO"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 24. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 24
+    },
+    {
+      "id": "official-2027-01-10-Enfermaria",
+      "date": "2027-01-10",
+      "sector": "Enfermaria",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "ANA CAROLINA",
+        "M. EDUARDA"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 24. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 24
+    },
+    {
+      "id": "official-2027-01-10-Sutura-diurno",
+      "date": "2027-01-10",
+      "sector": "Sutura diurno",
+      "start": "07:00",
+      "end": "19:00",
+      "names": [
+        "ANA CAROLINA",
+        "M. EDUARDA"
+      ],
+      "note": "Conferido na tabela do PDF atualizado, página 24. Horário conforme o cabeçalho da linha.",
+      "source": "pdf-conferido",
+      "sourcePage": 24
+    }
+  ],
+  "history": [
+    {
+      "date": "2026-11-07T23:00:00Z",
+      "action": "Conferência",
+      "description": "Escala extraída por células do PDF atualizado, páginas 13–24."
+    }
+  ]
+}
