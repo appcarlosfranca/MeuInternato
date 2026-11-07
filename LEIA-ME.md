@@ -5,7 +5,7 @@ Versão de revisão de 07/11/2026. O aplicativo integra escala e biblioteca no m
 ## Hospedar no GitHub Pages
 
 1. Extraia `app-cirurgia-github.zip`.
-2. Envie todo o conteúdo para a raiz do repositório, mantendo as pastas `texts` e `vendor`.
+2. Envie todo o conteúdo para a raiz do repositório, mantendo a pasta `vendor`.
 3. No GitHub, abra Settings → Pages e selecione a branch e a pasta raiz.
 4. Abra o endereço HTTPS gerado. No navegador, você também pode instalar o aplicativo.
 
@@ -57,3 +57,11 @@ Para atualizar a versão antiga sem trocar os arquivos do site, importe `escala-
 ## Licenças
 
 O leitor utiliza PDF.js e os arquivos de licença estão na pasta `vendor`. Os documentos são os materiais fornecidos pelo usuário e permanecem no aparelho após a importação.
+
+## Identidade visual
+
+Logo de Cirurgia — Internato Carlos atualizado na interface, favicon e ícones de instalação. A versão escura usa o logo branco e o tema Pérola usa o azul-marinho. Após substituir os arquivos no GitHub, recarregue o aplicativo para receber os novos recursos. Alguns sistemas exigem reinstalar o atalho para renovar o ícone da tela inicial.
+
+## Envio com até 100 arquivos
+
+Esta edição reúne os textos e os recursos auxiliares do leitor em arquivos únicos. Extraia o ZIP e envie seu conteúdo à raiz do repositório, mantendo a pasta vendor. As nove coleções .cirurgia são importadas no aplicativo; não devem ser enviadas ao GitHub.

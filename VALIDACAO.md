@@ -19,3 +19,7 @@ Concluída em 07/11/2026.
 - Cópia integral anterior, preservação de um ajuste de outro interno e atualização única foram testadas.
 
 Limites: não foi realizada revisão clínica integral do material nem inspeção visual de todas as páginas dos 89 PDFs. A extração dos cartões pode omitir imagens, fórmulas e formatação; as fontes e páginas permanecem acessíveis. As 13 prioridades do manual sem síntese específica estão identificadas no catálogo.
+
+## Pacote para envio pelo navegador
+
+25 arquivos, todos abaixo de 25 MB. Os 89 textos e 185 recursos auxiliares foram comparados byte a byte ou por conteúdo com a versão anterior. O leitor PDF e a consulta ao texto extraído foram verificados online e offline.
