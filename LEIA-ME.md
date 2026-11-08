@@ -9,7 +9,7 @@ Versão de revisão de 07/11/2026. O aplicativo integra escala e biblioteca no m
 3. No GitHub, abra Settings → Pages e selecione a branch e a pasta raiz.
 4. Abra o endereço HTTPS gerado. No navegador, você também pode instalar o aplicativo.
 
-O app não exige servidor de aplicação nem banco de dados externo. Abrir o HTML com duplo clique não oferece os mesmos recursos: o leitor, os textos e o funcionamento offline exigem hospedagem HTTPS ou localhost.
+O app utiliza o Supabase para autenticação e sincronização. Abrir o HTML com duplo clique não oferece os mesmos recursos: o leitor, os textos e o funcionamento offline exigem hospedagem HTTPS ou localhost.
 
 ## Importar os PDFs — uma vez por aparelho
 
@@ -36,11 +36,13 @@ A biblioteca pode ser usada imediatamente para resumos e cartões. Para ler os P
 
 Os resumos são introdutórios e não representam cobertura integral dos capítulos. Os cartões foram extraídos dos PDFs fornecidos; fórmulas, imagens e tabelas podem exigir a consulta à página original. Cada cartão indica sua fonte e página.
 
-## Backups e sincronização
+## Login, backups e sincronização
 
-Dados e trocas → Exportar JSON salva a escala. Biblioteca → Backup do estudo salva favoritos, notas e progresso. São backups diferentes. As coleções de PDFs não são incorporadas nesses backups.
+Esta versão inclui autenticação e sincronização entre aparelhos. Leia AUTH-LEIA-ME.md para criar sua conta e entrar. A escala, trocas e progresso de estudo são enviados ao Supabase com acesso privado por conta. PDFs continuam locais a cada aparelho.
 
-O GitHub Pages hospeda o aplicativo; ele não sincroniza os dados pessoais entre aparelhos. Em cada aparelho, importe os PDFs e, se desejar, o backup da escala e o backup do estudo.
+Dados e trocas → Exportar JSON salva a escala. Biblioteca → Backup do estudo salva favoritos, notas e progresso. Esses backups são independentes da sincronização. A tela Sincronizar permite baixar cópias de recuperação anteriores.
+
+A interface exige validação online do login. Os PDFs e textos podem ficar salvos localmente, mas o modo offline não contorna essa validação.
 
 ## Escala corrigida conforme o PDF
 
