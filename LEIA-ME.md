@@ -5,7 +5,7 @@ Versão de revisão de 07/11/2026. O aplicativo integra escala e biblioteca no m
 ## Hospedar no GitHub Pages
 
 1. Extraia `app-cirurgia-github.zip`.
-2. Envie todo o conteúdo para a raiz do repositório, mantendo a pasta `vendor`.
+2. Envie todo o conteúdo para a raiz do repositório, sem criar pastas.
 3. No GitHub, abra Settings → Pages e selecione a branch e a pasta raiz.
 4. Abra o endereço HTTPS gerado. No navegador, você também pode instalar o aplicativo.
 
@@ -58,7 +58,7 @@ Para atualizar a versão antiga sem trocar os arquivos do site, importe `escala-
 
 ## Licenças
 
-O leitor utiliza PDF.js e os arquivos de licença estão na pasta `vendor`. Os documentos são os materiais fornecidos pelo usuário e permanecem no aparelho após a importação.
+O leitor utiliza PDF.js e os arquivos de licença estão na raiz do repositório. Os documentos são os materiais fornecidos pelo usuário e permanecem no aparelho após a importação.
 
 ## Identidade visual
 
@@ -66,4 +66,8 @@ Logo de Cirurgia — Internato Carlos atualizado na interface, favicon e ícones
 
 ## Envio com até 100 arquivos
 
-Esta edição reúne os textos e os recursos auxiliares do leitor em arquivos únicos. Extraia o ZIP e envie seu conteúdo à raiz do repositório, mantendo a pasta vendor. As nove coleções .cirurgia são importadas no aplicativo; não devem ser enviadas ao GitHub.
+Esta edição reúne os textos e os recursos auxiliares do leitor em arquivos únicos. Extraia o ZIP e envie seu conteúdo à raiz do repositório, sem criar pastas. As nove coleções .cirurgia são importadas no aplicativo; não devem ser enviadas ao GitHub.
+
+## Correção do arquivo de sincronização ausente
+
+Todos os arquivos deste pacote ficam na raiz, sem pastas. Extraia o ZIP, selecione todos os arquivos extraídos e envie-os para a raiz do repositório. O arquivo supabase-2.119.0.js precisa estar ao lado de index.html, sync.js e supabase-config.js. O novo service worker identifica esta versão como root-v9. Depois da publicação, recarregue o app para atualizar o cache.
