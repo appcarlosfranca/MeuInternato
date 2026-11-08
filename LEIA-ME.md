@@ -38,11 +38,11 @@ Os resumos são introdutórios e não representam cobertura integral dos capítu
 
 ## Login, backups e sincronização
 
-Esta versão inclui autenticação e sincronização entre aparelhos. Leia AUTH-LEIA-ME.md para criar sua conta e entrar. A escala, trocas e progresso de estudo são enviados ao Supabase com acesso privado por conta. PDFs continuam locais a cada aparelho.
+Esta versão abre sem login. A sincronização privada entre aparelhos é opcional; consulte AUTH-LEIA-ME.md. A escala, trocas e progresso de estudo são enviados ao Supabase com acesso privado por conta. PDFs continuam locais a cada aparelho.
 
 Dados e trocas → Exportar JSON salva a escala. Biblioteca → Backup do estudo salva favoritos, notas e progresso. Esses backups são independentes da sincronização. A tela Sincronizar permite baixar cópias de recuperação anteriores.
 
-A interface exige validação online do login. Os PDFs e textos podem ficar salvos localmente, mas o modo offline não contorna essa validação.
+A interface funciona sem login. Os PDFs e textos salvos localmente podem ser usados offline após preparar o aplicativo.
 
 ## Escala corrigida conforme o PDF
 
